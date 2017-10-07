@@ -1,0 +1,1878 @@
+fileFormatVersion: 2
+guid: e5a4f3d8ca013a04e895bb1263b97aec
+timeCreated: 1506639253
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cam_001
+    100002: Cam_002
+    100004: Cam_003
+    100006: Cam_004
+    100008: CamAttach_001
+    100010: CamAttach_003
+    100012: CamAttach_005
+    100014: CamAttach_007
+    100016: CamMount_001
+    100018: CamMount_002
+    100020: CamMount_003
+    100022: CamMount_004
+    100024: Group_001
+    100026: Group_002
+    100028: Group_003
+    100030: Group_004
+    100032: Group_005
+    100034: Group_006
+    100036: Group_007
+    100038: Group_008
+    100040: Layer0_001
+    100042: Layer0_002
+    100044: Layer0_003
+    100046: Layer0_004
+    100048: Parallel chord truss_001
+    100050: Parallel chord truss_002
+    100052: Parallel chord truss_003
+    100054: Parallel chord truss_004
+    100056: Parallel chord truss_005
+    100058: Parallel chord truss_006
+    100060: Parallel chord truss_007
+    100062: Parallel chord truss_008
+    100064: Parallel chord truss_009
+    100066: Parallel chord truss_010
+    100068: Parallel chord truss_011
+    100070: Parallel chord truss_012
+    100072: Parallel chord truss_013
+    100074: Parallel chord truss_014
+    100076: Parallel chord truss_015
+    100078: Parallel chord truss_016
+    100080: //RootNode
+    100082: truss_diagonal member_001
+    100084: truss_diagonal member_002
+    100086: truss_diagonal member_003
+    100088: truss_diagonal member_004
+    100090: truss_diagonal member_005
+    100092: truss_diagonal member_006
+    100094: truss_diagonal member_007
+    100096: truss_diagonal member_008
+    100098: truss_diagonal member_009
+    100100: truss_diagonal member_010
+    100102: truss_diagonal member_011
+    100104: truss_diagonal member_012
+    100106: truss_diagonal member_013
+    100108: truss_diagonal member_014
+    100110: truss_diagonal member_015
+    100112: truss_diagonal member_016
+    100114: truss_diagonal member_017
+    100116: truss_diagonal member_018
+    100118: truss_diagonal member_019
+    100120: truss_diagonal member_020
+    100122: truss_diagonal member_021
+    100124: truss_diagonal member_022
+    100126: truss_diagonal member_023
+    100128: truss_diagonal member_024
+    100130: truss_diagonal member_025
+    100132: truss_diagonal member_026
+    100134: truss_diagonal member_027
+    100136: truss_diagonal member_028
+    100138: truss_diagonal member_029
+    100140: truss_diagonal member_030
+    100142: truss_diagonal member_031
+    100144: truss_diagonal member_032
+    100146: truss_diagonal member_033
+    100148: truss_diagonal member_034
+    100150: truss_diagonal member_035
+    100152: truss_diagonal member_036
+    100154: truss_diagonal member_037
+    100156: truss_diagonal member_038
+    100158: truss_diagonal member_039
+    100160: truss_diagonal member_040
+    100162: truss_diagonal member_041
+    100164: truss_diagonal member_042
+    100166: truss_diagonal member_043
+    100168: truss_diagonal member_044
+    100170: truss_diagonal member_045
+    100172: truss_diagonal member_046
+    100174: truss_diagonal member_047
+    100176: truss_diagonal member_048
+    100178: truss_diagonal member_049
+    100180: truss_diagonal member_050
+    100182: truss_diagonal member_051
+    100184: truss_diagonal member_052
+    100186: truss_diagonal member_053
+    100188: truss_diagonal member_054
+    100190: truss_diagonal member_055
+    100192: truss_diagonal member_056
+    100194: truss_diagonal member_057
+    100196: truss_diagonal member_058
+    100198: truss_diagonal member_059
+    100200: truss_diagonal member_060
+    100202: truss_diagonal member_061
+    100204: truss_diagonal member_062
+    100206: truss_diagonal member_063
+    100208: truss_diagonal member_064
+    100210: truss_diagonal member_065
+    100212: truss_diagonal member_066
+    100214: truss_diagonal member_067
+    100216: truss_diagonal member_068
+    100218: truss_diagonal member_069
+    100220: truss_diagonal member_070
+    100222: truss_diagonal member_071
+    100224: truss_diagonal member_072
+    100226: truss_diagonal member_073
+    100228: truss_diagonal member_074
+    100230: truss_diagonal member_075
+    100232: truss_diagonal member_076
+    100234: truss_diagonal member_077
+    100236: truss_diagonal member_078
+    100238: truss_diagonal member_079
+    100240: truss_diagonal member_080
+    100242: truss_diagonal member_081
+    100244: truss_diagonal member_082
+    100246: truss_diagonal member_083
+    100248: truss_diagonal member_084
+    100250: truss_diagonal member_085
+    100252: truss_diagonal member_086
+    100254: truss_diagonal member_087
+    100256: truss_diagonal member_088
+    100258: truss_diagonal member_089
+    100260: truss_diagonal member_090
+    100262: truss_diagonal member_091
+    100264: truss_diagonal member_092
+    100266: truss_diagonal member_093
+    100268: truss_diagonal member_094
+    100270: truss_diagonal member_095
+    100272: truss_diagonal member_096
+    100274: truss_diagonal member_097
+    100276: truss_diagonal member_098
+    100278: truss_diagonal member_099
+    100280: truss_diagonal member_100
+    100282: truss_diagonal member_101
+    100284: truss_diagonal member_102
+    100286: truss_diagonal member_103
+    100288: truss_diagonal member_104
+    100290: truss_diagonal member_105
+    100292: truss_diagonal member_106
+    100294: truss_diagonal member_107
+    100296: truss_diagonal member_108
+    100298: truss_diagonal member_109
+    100300: truss_diagonal member_110
+    100302: truss_diagonal member_111
+    100304: truss_diagonal member_112
+    100306: truss_diagonal member_113
+    100308: truss_diagonal member_114
+    100310: truss_diagonal member_115
+    100312: truss_diagonal member_116
+    100314: truss_diagonal member_117
+    100316: truss_diagonal member_118
+    100318: truss_diagonal member_119
+    100320: truss_diagonal member_120
+    100322: truss_diagonal member_121
+    100324: truss_diagonal member_122
+    100326: truss_diagonal member_123
+    100328: truss_diagonal member_124
+    100330: truss_diagonal member_125
+    100332: truss_diagonal member_126
+    100334: truss_diagonal member_127
+    100336: truss_diagonal member_128
+    100338: truss_diagonal member_129
+    100340: truss_diagonal member_130
+    100342: truss_diagonal member_131
+    100344: truss_diagonal member_132
+    100346: truss_diagonal member_133
+    100348: truss_diagonal member_134
+    100350: truss_diagonal member_135
+    100352: truss_diagonal member_136
+    100354: truss_diagonal member_137
+    100356: truss_diagonal member_138
+    100358: truss_diagonal member_139
+    100360: truss_diagonal member_140
+    100362: truss_diagonal member_141
+    100364: truss_diagonal member_142
+    100366: truss_diagonal member_143
+    100368: truss_diagonal member_144
+    100370: truss_diagonal member_145
+    100372: truss_diagonal member_146
+    100374: truss_diagonal member_147
+    100376: truss_diagonal member_148
+    100378: truss_diagonal member_149
+    100380: truss_diagonal member_150
+    100382: truss_diagonal member_151
+    100384: truss_diagonal member_152
+    100386: truss_diagonal member_153
+    100388: truss_diagonal member_154
+    100390: truss_diagonal member_155
+    100392: truss_diagonal member_156
+    100394: truss_diagonal member_157
+    100396: truss_diagonal member_158
+    100398: truss_diagonal member_159
+    100400: truss_diagonal member_160
+    100402: truss_vertical member_001
+    100404: truss_vertical member_002
+    100406: truss_vertical member_003
+    100408: truss_vertical member_004
+    100410: truss_vertical member_005
+    100412: truss_vertical member_006
+    100414: truss_vertical member_007
+    100416: truss_vertical member_008
+    100418: truss_vertical member_009
+    100420: truss_vertical member_010
+    100422: truss_vertical member_011
+    100424: truss_vertical member_012
+    100426: truss_vertical member_013
+    100428: truss_vertical member_014
+    100430: truss_vertical member_015
+    100432: truss_vertical member_016
+    100434: truss_vertical member_017
+    100436: truss_vertical member_018
+    100438: truss_vertical member_019
+    100440: truss_vertical member_020
+    100442: truss_vertical member_021
+    100444: truss_vertical member_022
+    100446: truss_vertical member_023
+    100448: truss_vertical member_024
+    100450: truss_vertical member_025
+    100452: truss_vertical member_026
+    100454: truss_vertical member_027
+    100456: truss_vertical member_028
+    100458: truss_vertical member_029
+    100460: truss_vertical member_030
+    100462: truss_vertical member_031
+    100464: truss_vertical member_032
+    100466: truss_vertical member_033
+    100468: truss_vertical member_034
+    100470: truss_vertical member_035
+    100472: truss_vertical member_036
+    100474: truss_vertical member_037
+    100476: truss_vertical member_038
+    100478: truss_vertical member_039
+    100480: truss_vertical member_040
+    100482: truss_vertical member_041
+    100484: truss_vertical member_042
+    100486: truss_vertical member_043
+    100488: truss_vertical member_044
+    100490: truss_vertical member_045
+    100492: truss_vertical member_046
+    100494: truss_vertical member_047
+    100496: truss_vertical member_048
+    100498: truss_vertical member_049
+    100500: truss_vertical member_050
+    100502: truss_vertical member_051
+    100504: truss_vertical member_052
+    100506: truss_vertical member_053
+    100508: truss_vertical member_054
+    100510: truss_vertical member_055
+    100512: truss_vertical member_056
+    100514: truss_vertical member_057
+    100516: truss_vertical member_058
+    100518: truss_vertical member_059
+    100520: truss_vertical member_060
+    100522: truss_vertical member_061
+    100524: truss_vertical member_062
+    100526: truss_vertical member_063
+    100528: truss_vertical member_064
+    100530: truss_vertical member_065
+    100532: truss_vertical member_066
+    100534: truss_vertical member_067
+    100536: truss_vertical member_068
+    100538: truss_vertical member_069
+    100540: truss_vertical member_070
+    100542: truss_vertical member_071
+    100544: truss_vertical member_072
+    100546: truss_vertical member_073
+    100548: truss_vertical member_074
+    100550: truss_vertical member_075
+    100552: truss_vertical member_076
+    100554: truss_vertical member_077
+    100556: truss_vertical member_078
+    100558: truss_vertical member_079
+    100560: truss_vertical member_080
+    100562: truss_vertical member_081
+    100564: truss_vertical member_082
+    100566: truss_vertical member_083
+    100568: truss_vertical member_084
+    100570: truss_vertical member_085
+    100572: truss_vertical member_086
+    100574: truss_vertical member_087
+    100576: truss_vertical member_088
+    100578: truss_vertical member_089
+    100580: truss_vertical member_090
+    100582: truss_vertical member_091
+    100584: truss_vertical member_092
+    100586: truss_vertical member_093
+    100588: truss_vertical member_094
+    100590: truss_vertical member_095
+    100592: truss_vertical member_096
+    100594: truss_vertical member_097
+    100596: truss_vertical member_098
+    100598: truss_vertical member_099
+    100600: truss_vertical member_100
+    100602: truss_vertical member_101
+    100604: truss_vertical member_102
+    100606: truss_vertical member_103
+    100608: truss_vertical member_104
+    100610: truss_vertical member_105
+    100612: truss_vertical member_106
+    100614: truss_vertical member_107
+    100616: truss_vertical member_108
+    100618: truss_vertical member_109
+    100620: truss_vertical member_110
+    100622: truss_vertical member_111
+    100624: truss_vertical member_112
+    100626: truss_vertical member_113
+    100628: truss_vertical member_114
+    100630: truss_vertical member_115
+    100632: truss_vertical member_116
+    100634: truss_vertical member_117
+    100636: truss_vertical member_118
+    100638: truss_vertical member_119
+    100640: truss_vertical member_120
+    100642: truss_vertical member_121
+    100644: truss_vertical member_122
+    100646: truss_vertical member_123
+    100648: truss_vertical member_124
+    100650: truss_vertical member_125
+    100652: truss_vertical member_126
+    100654: truss_vertical member_127
+    100656: truss_vertical member_128
+    100658: truss_vertical member_129
+    100660: truss_vertical member_130
+    100662: truss_vertical member_131
+    100664: truss_vertical member_132
+    100666: truss_vertical member_133
+    100668: truss_vertical member_134
+    100670: truss_vertical member_135
+    100672: truss_vertical member_136
+    100674: truss_vertical member_137
+    100676: truss_vertical member_138
+    100678: truss_vertical member_139
+    100680: truss_vertical member_140
+    100682: truss_vertical member_141
+    100684: truss_vertical member_142
+    100686: truss_vertical member_143
+    100688: truss_vertical member_144
+    100690: truss_vertical member_145
+    100692: truss_vertical member_146
+    100694: truss_vertical member_147
+    100696: truss_vertical member_148
+    100698: truss_vertical member_149
+    100700: truss_vertical member_150
+    100702: truss_vertical member_151
+    100704: truss_vertical member_152
+    100706: truss_vertical member_153
+    100708: truss_vertical member_154
+    100710: truss_vertical member_155
+    100712: truss_vertical member_156
+    100714: truss_vertical member_157
+    100716: truss_vertical member_158
+    100718: truss_vertical member_159
+    100720: truss_vertical member_160
+    400000: Cam_001
+    400002: Cam_002
+    400004: Cam_003
+    400006: Cam_004
+    400008: CamAttach_001
+    400010: CamAttach_003
+    400012: CamAttach_005
+    400014: CamAttach_007
+    400016: CamMount_001
+    400018: CamMount_002
+    400020: CamMount_003
+    400022: CamMount_004
+    400024: Group_001
+    400026: Group_002
+    400028: Group_003
+    400030: Group_004
+    400032: Group_005
+    400034: Group_006
+    400036: Group_007
+    400038: Group_008
+    400040: Layer0_001
+    400042: Layer0_002
+    400044: Layer0_003
+    400046: Layer0_004
+    400048: Parallel chord truss_001
+    400050: Parallel chord truss_002
+    400052: Parallel chord truss_003
+    400054: Parallel chord truss_004
+    400056: Parallel chord truss_005
+    400058: Parallel chord truss_006
+    400060: Parallel chord truss_007
+    400062: Parallel chord truss_008
+    400064: Parallel chord truss_009
+    400066: Parallel chord truss_010
+    400068: Parallel chord truss_011
+    400070: Parallel chord truss_012
+    400072: Parallel chord truss_013
+    400074: Parallel chord truss_014
+    400076: Parallel chord truss_015
+    400078: Parallel chord truss_016
+    400080: //RootNode
+    400082: truss_diagonal member_001
+    400084: truss_diagonal member_002
+    400086: truss_diagonal member_003
+    400088: truss_diagonal member_004
+    400090: truss_diagonal member_005
+    400092: truss_diagonal member_006
+    400094: truss_diagonal member_007
+    400096: truss_diagonal member_008
+    400098: truss_diagonal member_009
+    400100: truss_diagonal member_010
+    400102: truss_diagonal member_011
+    400104: truss_diagonal member_012
+    400106: truss_diagonal member_013
+    400108: truss_diagonal member_014
+    400110: truss_diagonal member_015
+    400112: truss_diagonal member_016
+    400114: truss_diagonal member_017
+    400116: truss_diagonal member_018
+    400118: truss_diagonal member_019
+    400120: truss_diagonal member_020
+    400122: truss_diagonal member_021
+    400124: truss_diagonal member_022
+    400126: truss_diagonal member_023
+    400128: truss_diagonal member_024
+    400130: truss_diagonal member_025
+    400132: truss_diagonal member_026
+    400134: truss_diagonal member_027
+    400136: truss_diagonal member_028
+    400138: truss_diagonal member_029
+    400140: truss_diagonal member_030
+    400142: truss_diagonal member_031
+    400144: truss_diagonal member_032
+    400146: truss_diagonal member_033
+    400148: truss_diagonal member_034
+    400150: truss_diagonal member_035
+    400152: truss_diagonal member_036
+    400154: truss_diagonal member_037
+    400156: truss_diagonal member_038
+    400158: truss_diagonal member_039
+    400160: truss_diagonal member_040
+    400162: truss_diagonal member_041
+    400164: truss_diagonal member_042
+    400166: truss_diagonal member_043
+    400168: truss_diagonal member_044
+    400170: truss_diagonal member_045
+    400172: truss_diagonal member_046
+    400174: truss_diagonal member_047
+    400176: truss_diagonal member_048
+    400178: truss_diagonal member_049
+    400180: truss_diagonal member_050
+    400182: truss_diagonal member_051
+    400184: truss_diagonal member_052
+    400186: truss_diagonal member_053
+    400188: truss_diagonal member_054
+    400190: truss_diagonal member_055
+    400192: truss_diagonal member_056
+    400194: truss_diagonal member_057
+    400196: truss_diagonal member_058
+    400198: truss_diagonal member_059
+    400200: truss_diagonal member_060
+    400202: truss_diagonal member_061
+    400204: truss_diagonal member_062
+    400206: truss_diagonal member_063
+    400208: truss_diagonal member_064
+    400210: truss_diagonal member_065
+    400212: truss_diagonal member_066
+    400214: truss_diagonal member_067
+    400216: truss_diagonal member_068
+    400218: truss_diagonal member_069
+    400220: truss_diagonal member_070
+    400222: truss_diagonal member_071
+    400224: truss_diagonal member_072
+    400226: truss_diagonal member_073
+    400228: truss_diagonal member_074
+    400230: truss_diagonal member_075
+    400232: truss_diagonal member_076
+    400234: truss_diagonal member_077
+    400236: truss_diagonal member_078
+    400238: truss_diagonal member_079
+    400240: truss_diagonal member_080
+    400242: truss_diagonal member_081
+    400244: truss_diagonal member_082
+    400246: truss_diagonal member_083
+    400248: truss_diagonal member_084
+    400250: truss_diagonal member_085
+    400252: truss_diagonal member_086
+    400254: truss_diagonal member_087
+    400256: truss_diagonal member_088
+    400258: truss_diagonal member_089
+    400260: truss_diagonal member_090
+    400262: truss_diagonal member_091
+    400264: truss_diagonal member_092
+    400266: truss_diagonal member_093
+    400268: truss_diagonal member_094
+    400270: truss_diagonal member_095
+    400272: truss_diagonal member_096
+    400274: truss_diagonal member_097
+    400276: truss_diagonal member_098
+    400278: truss_diagonal member_099
+    400280: truss_diagonal member_100
+    400282: truss_diagonal member_101
+    400284: truss_diagonal member_102
+    400286: truss_diagonal member_103
+    400288: truss_diagonal member_104
+    400290: truss_diagonal member_105
+    400292: truss_diagonal member_106
+    400294: truss_diagonal member_107
+    400296: truss_diagonal member_108
+    400298: truss_diagonal member_109
+    400300: truss_diagonal member_110
+    400302: truss_diagonal member_111
+    400304: truss_diagonal member_112
+    400306: truss_diagonal member_113
+    400308: truss_diagonal member_114
+    400310: truss_diagonal member_115
+    400312: truss_diagonal member_116
+    400314: truss_diagonal member_117
+    400316: truss_diagonal member_118
+    400318: truss_diagonal member_119
+    400320: truss_diagonal member_120
+    400322: truss_diagonal member_121
+    400324: truss_diagonal member_122
+    400326: truss_diagonal member_123
+    400328: truss_diagonal member_124
+    400330: truss_diagonal member_125
+    400332: truss_diagonal member_126
+    400334: truss_diagonal member_127
+    400336: truss_diagonal member_128
+    400338: truss_diagonal member_129
+    400340: truss_diagonal member_130
+    400342: truss_diagonal member_131
+    400344: truss_diagonal member_132
+    400346: truss_diagonal member_133
+    400348: truss_diagonal member_134
+    400350: truss_diagonal member_135
+    400352: truss_diagonal member_136
+    400354: truss_diagonal member_137
+    400356: truss_diagonal member_138
+    400358: truss_diagonal member_139
+    400360: truss_diagonal member_140
+    400362: truss_diagonal member_141
+    400364: truss_diagonal member_142
+    400366: truss_diagonal member_143
+    400368: truss_diagonal member_144
+    400370: truss_diagonal member_145
+    400372: truss_diagonal member_146
+    400374: truss_diagonal member_147
+    400376: truss_diagonal member_148
+    400378: truss_diagonal member_149
+    400380: truss_diagonal member_150
+    400382: truss_diagonal member_151
+    400384: truss_diagonal member_152
+    400386: truss_diagonal member_153
+    400388: truss_diagonal member_154
+    400390: truss_diagonal member_155
+    400392: truss_diagonal member_156
+    400394: truss_diagonal member_157
+    400396: truss_diagonal member_158
+    400398: truss_diagonal member_159
+    400400: truss_diagonal member_160
+    400402: truss_vertical member_001
+    400404: truss_vertical member_002
+    400406: truss_vertical member_003
+    400408: truss_vertical member_004
+    400410: truss_vertical member_005
+    400412: truss_vertical member_006
+    400414: truss_vertical member_007
+    400416: truss_vertical member_008
+    400418: truss_vertical member_009
+    400420: truss_vertical member_010
+    400422: truss_vertical member_011
+    400424: truss_vertical member_012
+    400426: truss_vertical member_013
+    400428: truss_vertical member_014
+    400430: truss_vertical member_015
+    400432: truss_vertical member_016
+    400434: truss_vertical member_017
+    400436: truss_vertical member_018
+    400438: truss_vertical member_019
+    400440: truss_vertical member_020
+    400442: truss_vertical member_021
+    400444: truss_vertical member_022
+    400446: truss_vertical member_023
+    400448: truss_vertical member_024
+    400450: truss_vertical member_025
+    400452: truss_vertical member_026
+    400454: truss_vertical member_027
+    400456: truss_vertical member_028
+    400458: truss_vertical member_029
+    400460: truss_vertical member_030
+    400462: truss_vertical member_031
+    400464: truss_vertical member_032
+    400466: truss_vertical member_033
+    400468: truss_vertical member_034
+    400470: truss_vertical member_035
+    400472: truss_vertical member_036
+    400474: truss_vertical member_037
+    400476: truss_vertical member_038
+    400478: truss_vertical member_039
+    400480: truss_vertical member_040
+    400482: truss_vertical member_041
+    400484: truss_vertical member_042
+    400486: truss_vertical member_043
+    400488: truss_vertical member_044
+    400490: truss_vertical member_045
+    400492: truss_vertical member_046
+    400494: truss_vertical member_047
+    400496: truss_vertical member_048
+    400498: truss_vertical member_049
+    400500: truss_vertical member_050
+    400502: truss_vertical member_051
+    400504: truss_vertical member_052
+    400506: truss_vertical member_053
+    400508: truss_vertical member_054
+    400510: truss_vertical member_055
+    400512: truss_vertical member_056
+    400514: truss_vertical member_057
+    400516: truss_vertical member_058
+    400518: truss_vertical member_059
+    400520: truss_vertical member_060
+    400522: truss_vertical member_061
+    400524: truss_vertical member_062
+    400526: truss_vertical member_063
+    400528: truss_vertical member_064
+    400530: truss_vertical member_065
+    400532: truss_vertical member_066
+    400534: truss_vertical member_067
+    400536: truss_vertical member_068
+    400538: truss_vertical member_069
+    400540: truss_vertical member_070
+    400542: truss_vertical member_071
+    400544: truss_vertical member_072
+    400546: truss_vertical member_073
+    400548: truss_vertical member_074
+    400550: truss_vertical member_075
+    400552: truss_vertical member_076
+    400554: truss_vertical member_077
+    400556: truss_vertical member_078
+    400558: truss_vertical member_079
+    400560: truss_vertical member_080
+    400562: truss_vertical member_081
+    400564: truss_vertical member_082
+    400566: truss_vertical member_083
+    400568: truss_vertical member_084
+    400570: truss_vertical member_085
+    400572: truss_vertical member_086
+    400574: truss_vertical member_087
+    400576: truss_vertical member_088
+    400578: truss_vertical member_089
+    400580: truss_vertical member_090
+    400582: truss_vertical member_091
+    400584: truss_vertical member_092
+    400586: truss_vertical member_093
+    400588: truss_vertical member_094
+    400590: truss_vertical member_095
+    400592: truss_vertical member_096
+    400594: truss_vertical member_097
+    400596: truss_vertical member_098
+    400598: truss_vertical member_099
+    400600: truss_vertical member_100
+    400602: truss_vertical member_101
+    400604: truss_vertical member_102
+    400606: truss_vertical member_103
+    400608: truss_vertical member_104
+    400610: truss_vertical member_105
+    400612: truss_vertical member_106
+    400614: truss_vertical member_107
+    400616: truss_vertical member_108
+    400618: truss_vertical member_109
+    400620: truss_vertical member_110
+    400622: truss_vertical member_111
+    400624: truss_vertical member_112
+    400626: truss_vertical member_113
+    400628: truss_vertical member_114
+    400630: truss_vertical member_115
+    400632: truss_vertical member_116
+    400634: truss_vertical member_117
+    400636: truss_vertical member_118
+    400638: truss_vertical member_119
+    400640: truss_vertical member_120
+    400642: truss_vertical member_121
+    400644: truss_vertical member_122
+    400646: truss_vertical member_123
+    400648: truss_vertical member_124
+    400650: truss_vertical member_125
+    400652: truss_vertical member_126
+    400654: truss_vertical member_127
+    400656: truss_vertical member_128
+    400658: truss_vertical member_129
+    400660: truss_vertical member_130
+    400662: truss_vertical member_131
+    400664: truss_vertical member_132
+    400666: truss_vertical member_133
+    400668: truss_vertical member_134
+    400670: truss_vertical member_135
+    400672: truss_vertical member_136
+    400674: truss_vertical member_137
+    400676: truss_vertical member_138
+    400678: truss_vertical member_139
+    400680: truss_vertical member_140
+    400682: truss_vertical member_141
+    400684: truss_vertical member_142
+    400686: truss_vertical member_143
+    400688: truss_vertical member_144
+    400690: truss_vertical member_145
+    400692: truss_vertical member_146
+    400694: truss_vertical member_147
+    400696: truss_vertical member_148
+    400698: truss_vertical member_149
+    400700: truss_vertical member_150
+    400702: truss_vertical member_151
+    400704: truss_vertical member_152
+    400706: truss_vertical member_153
+    400708: truss_vertical member_154
+    400710: truss_vertical member_155
+    400712: truss_vertical member_156
+    400714: truss_vertical member_157
+    400716: truss_vertical member_158
+    400718: truss_vertical member_159
+    400720: truss_vertical member_160
+    2300000: Cam_001
+    2300002: Cam_002
+    2300004: Cam_003
+    2300006: Cam_004
+    2300008: CamAttach_001
+    2300010: CamAttach_003
+    2300012: CamAttach_005
+    2300014: CamAttach_007
+    2300016: CamMount_001
+    2300018: CamMount_002
+    2300020: CamMount_003
+    2300022: CamMount_004
+    2300024: Group_001
+    2300026: Group_002
+    2300028: Group_003
+    2300030: Group_004
+    2300032: Group_005
+    2300034: Group_006
+    2300036: Group_007
+    2300038: Group_008
+    2300040: Layer0_001
+    2300042: Layer0_002
+    2300044: Layer0_003
+    2300046: Layer0_004
+    2300048: Parallel chord truss_001
+    2300050: Parallel chord truss_002
+    2300052: Parallel chord truss_003
+    2300054: Parallel chord truss_004
+    2300056: Parallel chord truss_005
+    2300058: Parallel chord truss_006
+    2300060: Parallel chord truss_007
+    2300062: Parallel chord truss_008
+    2300064: Parallel chord truss_009
+    2300066: Parallel chord truss_010
+    2300068: Parallel chord truss_011
+    2300070: Parallel chord truss_012
+    2300072: Parallel chord truss_013
+    2300074: Parallel chord truss_014
+    2300076: Parallel chord truss_015
+    2300078: Parallel chord truss_016
+    2300080: truss_diagonal member_001
+    2300082: truss_diagonal member_002
+    2300084: truss_diagonal member_003
+    2300086: truss_diagonal member_004
+    2300088: truss_diagonal member_005
+    2300090: truss_diagonal member_006
+    2300092: truss_diagonal member_007
+    2300094: truss_diagonal member_008
+    2300096: truss_diagonal member_009
+    2300098: truss_diagonal member_010
+    2300100: truss_diagonal member_011
+    2300102: truss_diagonal member_012
+    2300104: truss_diagonal member_013
+    2300106: truss_diagonal member_014
+    2300108: truss_diagonal member_015
+    2300110: truss_diagonal member_016
+    2300112: truss_diagonal member_017
+    2300114: truss_diagonal member_018
+    2300116: truss_diagonal member_019
+    2300118: truss_diagonal member_020
+    2300120: truss_diagonal member_021
+    2300122: truss_diagonal member_022
+    2300124: truss_diagonal member_023
+    2300126: truss_diagonal member_024
+    2300128: truss_diagonal member_025
+    2300130: truss_diagonal member_026
+    2300132: truss_diagonal member_027
+    2300134: truss_diagonal member_028
+    2300136: truss_diagonal member_029
+    2300138: truss_diagonal member_030
+    2300140: truss_diagonal member_031
+    2300142: truss_diagonal member_032
+    2300144: truss_diagonal member_033
+    2300146: truss_diagonal member_034
+    2300148: truss_diagonal member_035
+    2300150: truss_diagonal member_036
+    2300152: truss_diagonal member_037
+    2300154: truss_diagonal member_038
+    2300156: truss_diagonal member_039
+    2300158: truss_diagonal member_040
+    2300160: truss_diagonal member_041
+    2300162: truss_diagonal member_042
+    2300164: truss_diagonal member_043
+    2300166: truss_diagonal member_044
+    2300168: truss_diagonal member_045
+    2300170: truss_diagonal member_046
+    2300172: truss_diagonal member_047
+    2300174: truss_diagonal member_048
+    2300176: truss_diagonal member_049
+    2300178: truss_diagonal member_050
+    2300180: truss_diagonal member_051
+    2300182: truss_diagonal member_052
+    2300184: truss_diagonal member_053
+    2300186: truss_diagonal member_054
+    2300188: truss_diagonal member_055
+    2300190: truss_diagonal member_056
+    2300192: truss_diagonal member_057
+    2300194: truss_diagonal member_058
+    2300196: truss_diagonal member_059
+    2300198: truss_diagonal member_060
+    2300200: truss_diagonal member_061
+    2300202: truss_diagonal member_062
+    2300204: truss_diagonal member_063
+    2300206: truss_diagonal member_064
+    2300208: truss_diagonal member_065
+    2300210: truss_diagonal member_066
+    2300212: truss_diagonal member_067
+    2300214: truss_diagonal member_068
+    2300216: truss_diagonal member_069
+    2300218: truss_diagonal member_070
+    2300220: truss_diagonal member_071
+    2300222: truss_diagonal member_072
+    2300224: truss_diagonal member_073
+    2300226: truss_diagonal member_074
+    2300228: truss_diagonal member_075
+    2300230: truss_diagonal member_076
+    2300232: truss_diagonal member_077
+    2300234: truss_diagonal member_078
+    2300236: truss_diagonal member_079
+    2300238: truss_diagonal member_080
+    2300240: truss_diagonal member_081
+    2300242: truss_diagonal member_082
+    2300244: truss_diagonal member_083
+    2300246: truss_diagonal member_084
+    2300248: truss_diagonal member_085
+    2300250: truss_diagonal member_086
+    2300252: truss_diagonal member_087
+    2300254: truss_diagonal member_088
+    2300256: truss_diagonal member_089
+    2300258: truss_diagonal member_090
+    2300260: truss_diagonal member_091
+    2300262: truss_diagonal member_092
+    2300264: truss_diagonal member_093
+    2300266: truss_diagonal member_094
+    2300268: truss_diagonal member_095
+    2300270: truss_diagonal member_096
+    2300272: truss_diagonal member_097
+    2300274: truss_diagonal member_098
+    2300276: truss_diagonal member_099
+    2300278: truss_diagonal member_100
+    2300280: truss_diagonal member_101
+    2300282: truss_diagonal member_102
+    2300284: truss_diagonal member_103
+    2300286: truss_diagonal member_104
+    2300288: truss_diagonal member_105
+    2300290: truss_diagonal member_106
+    2300292: truss_diagonal member_107
+    2300294: truss_diagonal member_108
+    2300296: truss_diagonal member_109
+    2300298: truss_diagonal member_110
+    2300300: truss_diagonal member_111
+    2300302: truss_diagonal member_112
+    2300304: truss_diagonal member_113
+    2300306: truss_diagonal member_114
+    2300308: truss_diagonal member_115
+    2300310: truss_diagonal member_116
+    2300312: truss_diagonal member_117
+    2300314: truss_diagonal member_118
+    2300316: truss_diagonal member_119
+    2300318: truss_diagonal member_120
+    2300320: truss_diagonal member_121
+    2300322: truss_diagonal member_122
+    2300324: truss_diagonal member_123
+    2300326: truss_diagonal member_124
+    2300328: truss_diagonal member_125
+    2300330: truss_diagonal member_126
+    2300332: truss_diagonal member_127
+    2300334: truss_diagonal member_128
+    2300336: truss_diagonal member_129
+    2300338: truss_diagonal member_130
+    2300340: truss_diagonal member_131
+    2300342: truss_diagonal member_132
+    2300344: truss_diagonal member_133
+    2300346: truss_diagonal member_134
+    2300348: truss_diagonal member_135
+    2300350: truss_diagonal member_136
+    2300352: truss_diagonal member_137
+    2300354: truss_diagonal member_138
+    2300356: truss_diagonal member_139
+    2300358: truss_diagonal member_140
+    2300360: truss_diagonal member_141
+    2300362: truss_diagonal member_142
+    2300364: truss_diagonal member_143
+    2300366: truss_diagonal member_144
+    2300368: truss_diagonal member_145
+    2300370: truss_diagonal member_146
+    2300372: truss_diagonal member_147
+    2300374: truss_diagonal member_148
+    2300376: truss_diagonal member_149
+    2300378: truss_diagonal member_150
+    2300380: truss_diagonal member_151
+    2300382: truss_diagonal member_152
+    2300384: truss_diagonal member_153
+    2300386: truss_diagonal member_154
+    2300388: truss_diagonal member_155
+    2300390: truss_diagonal member_156
+    2300392: truss_diagonal member_157
+    2300394: truss_diagonal member_158
+    2300396: truss_diagonal member_159
+    2300398: truss_diagonal member_160
+    2300400: truss_vertical member_001
+    2300402: truss_vertical member_002
+    2300404: truss_vertical member_003
+    2300406: truss_vertical member_004
+    2300408: truss_vertical member_005
+    2300410: truss_vertical member_006
+    2300412: truss_vertical member_007
+    2300414: truss_vertical member_008
+    2300416: truss_vertical member_009
+    2300418: truss_vertical member_010
+    2300420: truss_vertical member_011
+    2300422: truss_vertical member_012
+    2300424: truss_vertical member_013
+    2300426: truss_vertical member_014
+    2300428: truss_vertical member_015
+    2300430: truss_vertical member_016
+    2300432: truss_vertical member_017
+    2300434: truss_vertical member_018
+    2300436: truss_vertical member_019
+    2300438: truss_vertical member_020
+    2300440: truss_vertical member_021
+    2300442: truss_vertical member_022
+    2300444: truss_vertical member_023
+    2300446: truss_vertical member_024
+    2300448: truss_vertical member_025
+    2300450: truss_vertical member_026
+    2300452: truss_vertical member_027
+    2300454: truss_vertical member_028
+    2300456: truss_vertical member_029
+    2300458: truss_vertical member_030
+    2300460: truss_vertical member_031
+    2300462: truss_vertical member_032
+    2300464: truss_vertical member_033
+    2300466: truss_vertical member_034
+    2300468: truss_vertical member_035
+    2300470: truss_vertical member_036
+    2300472: truss_vertical member_037
+    2300474: truss_vertical member_038
+    2300476: truss_vertical member_039
+    2300478: truss_vertical member_040
+    2300480: truss_vertical member_041
+    2300482: truss_vertical member_042
+    2300484: truss_vertical member_043
+    2300486: truss_vertical member_044
+    2300488: truss_vertical member_045
+    2300490: truss_vertical member_046
+    2300492: truss_vertical member_047
+    2300494: truss_vertical member_048
+    2300496: truss_vertical member_049
+    2300498: truss_vertical member_050
+    2300500: truss_vertical member_051
+    2300502: truss_vertical member_052
+    2300504: truss_vertical member_053
+    2300506: truss_vertical member_054
+    2300508: truss_vertical member_055
+    2300510: truss_vertical member_056
+    2300512: truss_vertical member_057
+    2300514: truss_vertical member_058
+    2300516: truss_vertical member_059
+    2300518: truss_vertical member_060
+    2300520: truss_vertical member_061
+    2300522: truss_vertical member_062
+    2300524: truss_vertical member_063
+    2300526: truss_vertical member_064
+    2300528: truss_vertical member_065
+    2300530: truss_vertical member_066
+    2300532: truss_vertical member_067
+    2300534: truss_vertical member_068
+    2300536: truss_vertical member_069
+    2300538: truss_vertical member_070
+    2300540: truss_vertical member_071
+    2300542: truss_vertical member_072
+    2300544: truss_vertical member_073
+    2300546: truss_vertical member_074
+    2300548: truss_vertical member_075
+    2300550: truss_vertical member_076
+    2300552: truss_vertical member_077
+    2300554: truss_vertical member_078
+    2300556: truss_vertical member_079
+    2300558: truss_vertical member_080
+    2300560: truss_vertical member_081
+    2300562: truss_vertical member_082
+    2300564: truss_vertical member_083
+    2300566: truss_vertical member_084
+    2300568: truss_vertical member_085
+    2300570: truss_vertical member_086
+    2300572: truss_vertical member_087
+    2300574: truss_vertical member_088
+    2300576: truss_vertical member_089
+    2300578: truss_vertical member_090
+    2300580: truss_vertical member_091
+    2300582: truss_vertical member_092
+    2300584: truss_vertical member_093
+    2300586: truss_vertical member_094
+    2300588: truss_vertical member_095
+    2300590: truss_vertical member_096
+    2300592: truss_vertical member_097
+    2300594: truss_vertical member_098
+    2300596: truss_vertical member_099
+    2300598: truss_vertical member_100
+    2300600: truss_vertical member_101
+    2300602: truss_vertical member_102
+    2300604: truss_vertical member_103
+    2300606: truss_vertical member_104
+    2300608: truss_vertical member_105
+    2300610: truss_vertical member_106
+    2300612: truss_vertical member_107
+    2300614: truss_vertical member_108
+    2300616: truss_vertical member_109
+    2300618: truss_vertical member_110
+    2300620: truss_vertical member_111
+    2300622: truss_vertical member_112
+    2300624: truss_vertical member_113
+    2300626: truss_vertical member_114
+    2300628: truss_vertical member_115
+    2300630: truss_vertical member_116
+    2300632: truss_vertical member_117
+    2300634: truss_vertical member_118
+    2300636: truss_vertical member_119
+    2300638: truss_vertical member_120
+    2300640: truss_vertical member_121
+    2300642: truss_vertical member_122
+    2300644: truss_vertical member_123
+    2300646: truss_vertical member_124
+    2300648: truss_vertical member_125
+    2300650: truss_vertical member_126
+    2300652: truss_vertical member_127
+    2300654: truss_vertical member_128
+    2300656: truss_vertical member_129
+    2300658: truss_vertical member_130
+    2300660: truss_vertical member_131
+    2300662: truss_vertical member_132
+    2300664: truss_vertical member_133
+    2300666: truss_vertical member_134
+    2300668: truss_vertical member_135
+    2300670: truss_vertical member_136
+    2300672: truss_vertical member_137
+    2300674: truss_vertical member_138
+    2300676: truss_vertical member_139
+    2300678: truss_vertical member_140
+    2300680: truss_vertical member_141
+    2300682: truss_vertical member_142
+    2300684: truss_vertical member_143
+    2300686: truss_vertical member_144
+    2300688: truss_vertical member_145
+    2300690: truss_vertical member_146
+    2300692: truss_vertical member_147
+    2300694: truss_vertical member_148
+    2300696: truss_vertical member_149
+    2300698: truss_vertical member_150
+    2300700: truss_vertical member_151
+    2300702: truss_vertical member_152
+    2300704: truss_vertical member_153
+    2300706: truss_vertical member_154
+    2300708: truss_vertical member_155
+    2300710: truss_vertical member_156
+    2300712: truss_vertical member_157
+    2300714: truss_vertical member_158
+    2300716: truss_vertical member_159
+    2300718: truss_vertical member_160
+    3300000: Cam_001
+    3300002: Cam_002
+    3300004: Cam_003
+    3300006: Cam_004
+    3300008: CamAttach_001
+    3300010: CamAttach_003
+    3300012: CamAttach_005
+    3300014: CamAttach_007
+    3300016: CamMount_001
+    3300018: CamMount_002
+    3300020: CamMount_003
+    3300022: CamMount_004
+    3300024: Group_001
+    3300026: Group_002
+    3300028: Group_003
+    3300030: Group_004
+    3300032: Group_005
+    3300034: Group_006
+    3300036: Group_007
+    3300038: Group_008
+    3300040: Layer0_001
+    3300042: Layer0_002
+    3300044: Layer0_003
+    3300046: Layer0_004
+    3300048: Parallel chord truss_001
+    3300050: Parallel chord truss_002
+    3300052: Parallel chord truss_003
+    3300054: Parallel chord truss_004
+    3300056: Parallel chord truss_005
+    3300058: Parallel chord truss_006
+    3300060: Parallel chord truss_007
+    3300062: Parallel chord truss_008
+    3300064: Parallel chord truss_009
+    3300066: Parallel chord truss_010
+    3300068: Parallel chord truss_011
+    3300070: Parallel chord truss_012
+    3300072: Parallel chord truss_013
+    3300074: Parallel chord truss_014
+    3300076: Parallel chord truss_015
+    3300078: Parallel chord truss_016
+    3300080: truss_diagonal member_001
+    3300082: truss_diagonal member_002
+    3300084: truss_diagonal member_003
+    3300086: truss_diagonal member_004
+    3300088: truss_diagonal member_005
+    3300090: truss_diagonal member_006
+    3300092: truss_diagonal member_007
+    3300094: truss_diagonal member_008
+    3300096: truss_diagonal member_009
+    3300098: truss_diagonal member_010
+    3300100: truss_diagonal member_011
+    3300102: truss_diagonal member_012
+    3300104: truss_diagonal member_013
+    3300106: truss_diagonal member_014
+    3300108: truss_diagonal member_015
+    3300110: truss_diagonal member_016
+    3300112: truss_diagonal member_017
+    3300114: truss_diagonal member_018
+    3300116: truss_diagonal member_019
+    3300118: truss_diagonal member_020
+    3300120: truss_diagonal member_021
+    3300122: truss_diagonal member_022
+    3300124: truss_diagonal member_023
+    3300126: truss_diagonal member_024
+    3300128: truss_diagonal member_025
+    3300130: truss_diagonal member_026
+    3300132: truss_diagonal member_027
+    3300134: truss_diagonal member_028
+    3300136: truss_diagonal member_029
+    3300138: truss_diagonal member_030
+    3300140: truss_diagonal member_031
+    3300142: truss_diagonal member_032
+    3300144: truss_diagonal member_033
+    3300146: truss_diagonal member_034
+    3300148: truss_diagonal member_035
+    3300150: truss_diagonal member_036
+    3300152: truss_diagonal member_037
+    3300154: truss_diagonal member_038
+    3300156: truss_diagonal member_039
+    3300158: truss_diagonal member_040
+    3300160: truss_diagonal member_041
+    3300162: truss_diagonal member_042
+    3300164: truss_diagonal member_043
+    3300166: truss_diagonal member_044
+    3300168: truss_diagonal member_045
+    3300170: truss_diagonal member_046
+    3300172: truss_diagonal member_047
+    3300174: truss_diagonal member_048
+    3300176: truss_diagonal member_049
+    3300178: truss_diagonal member_050
+    3300180: truss_diagonal member_051
+    3300182: truss_diagonal member_052
+    3300184: truss_diagonal member_053
+    3300186: truss_diagonal member_054
+    3300188: truss_diagonal member_055
+    3300190: truss_diagonal member_056
+    3300192: truss_diagonal member_057
+    3300194: truss_diagonal member_058
+    3300196: truss_diagonal member_059
+    3300198: truss_diagonal member_060
+    3300200: truss_diagonal member_061
+    3300202: truss_diagonal member_062
+    3300204: truss_diagonal member_063
+    3300206: truss_diagonal member_064
+    3300208: truss_diagonal member_065
+    3300210: truss_diagonal member_066
+    3300212: truss_diagonal member_067
+    3300214: truss_diagonal member_068
+    3300216: truss_diagonal member_069
+    3300218: truss_diagonal member_070
+    3300220: truss_diagonal member_071
+    3300222: truss_diagonal member_072
+    3300224: truss_diagonal member_073
+    3300226: truss_diagonal member_074
+    3300228: truss_diagonal member_075
+    3300230: truss_diagonal member_076
+    3300232: truss_diagonal member_077
+    3300234: truss_diagonal member_078
+    3300236: truss_diagonal member_079
+    3300238: truss_diagonal member_080
+    3300240: truss_diagonal member_081
+    3300242: truss_diagonal member_082
+    3300244: truss_diagonal member_083
+    3300246: truss_diagonal member_084
+    3300248: truss_diagonal member_085
+    3300250: truss_diagonal member_086
+    3300252: truss_diagonal member_087
+    3300254: truss_diagonal member_088
+    3300256: truss_diagonal member_089
+    3300258: truss_diagonal member_090
+    3300260: truss_diagonal member_091
+    3300262: truss_diagonal member_092
+    3300264: truss_diagonal member_093
+    3300266: truss_diagonal member_094
+    3300268: truss_diagonal member_095
+    3300270: truss_diagonal member_096
+    3300272: truss_diagonal member_097
+    3300274: truss_diagonal member_098
+    3300276: truss_diagonal member_099
+    3300278: truss_diagonal member_100
+    3300280: truss_diagonal member_101
+    3300282: truss_diagonal member_102
+    3300284: truss_diagonal member_103
+    3300286: truss_diagonal member_104
+    3300288: truss_diagonal member_105
+    3300290: truss_diagonal member_106
+    3300292: truss_diagonal member_107
+    3300294: truss_diagonal member_108
+    3300296: truss_diagonal member_109
+    3300298: truss_diagonal member_110
+    3300300: truss_diagonal member_111
+    3300302: truss_diagonal member_112
+    3300304: truss_diagonal member_113
+    3300306: truss_diagonal member_114
+    3300308: truss_diagonal member_115
+    3300310: truss_diagonal member_116
+    3300312: truss_diagonal member_117
+    3300314: truss_diagonal member_118
+    3300316: truss_diagonal member_119
+    3300318: truss_diagonal member_120
+    3300320: truss_diagonal member_121
+    3300322: truss_diagonal member_122
+    3300324: truss_diagonal member_123
+    3300326: truss_diagonal member_124
+    3300328: truss_diagonal member_125
+    3300330: truss_diagonal member_126
+    3300332: truss_diagonal member_127
+    3300334: truss_diagonal member_128
+    3300336: truss_diagonal member_129
+    3300338: truss_diagonal member_130
+    3300340: truss_diagonal member_131
+    3300342: truss_diagonal member_132
+    3300344: truss_diagonal member_133
+    3300346: truss_diagonal member_134
+    3300348: truss_diagonal member_135
+    3300350: truss_diagonal member_136
+    3300352: truss_diagonal member_137
+    3300354: truss_diagonal member_138
+    3300356: truss_diagonal member_139
+    3300358: truss_diagonal member_140
+    3300360: truss_diagonal member_141
+    3300362: truss_diagonal member_142
+    3300364: truss_diagonal member_143
+    3300366: truss_diagonal member_144
+    3300368: truss_diagonal member_145
+    3300370: truss_diagonal member_146
+    3300372: truss_diagonal member_147
+    3300374: truss_diagonal member_148
+    3300376: truss_diagonal member_149
+    3300378: truss_diagonal member_150
+    3300380: truss_diagonal member_151
+    3300382: truss_diagonal member_152
+    3300384: truss_diagonal member_153
+    3300386: truss_diagonal member_154
+    3300388: truss_diagonal member_155
+    3300390: truss_diagonal member_156
+    3300392: truss_diagonal member_157
+    3300394: truss_diagonal member_158
+    3300396: truss_diagonal member_159
+    3300398: truss_diagonal member_160
+    3300400: truss_vertical member_001
+    3300402: truss_vertical member_002
+    3300404: truss_vertical member_003
+    3300406: truss_vertical member_004
+    3300408: truss_vertical member_005
+    3300410: truss_vertical member_006
+    3300412: truss_vertical member_007
+    3300414: truss_vertical member_008
+    3300416: truss_vertical member_009
+    3300418: truss_vertical member_010
+    3300420: truss_vertical member_011
+    3300422: truss_vertical member_012
+    3300424: truss_vertical member_013
+    3300426: truss_vertical member_014
+    3300428: truss_vertical member_015
+    3300430: truss_vertical member_016
+    3300432: truss_vertical member_017
+    3300434: truss_vertical member_018
+    3300436: truss_vertical member_019
+    3300438: truss_vertical member_020
+    3300440: truss_vertical member_021
+    3300442: truss_vertical member_022
+    3300444: truss_vertical member_023
+    3300446: truss_vertical member_024
+    3300448: truss_vertical member_025
+    3300450: truss_vertical member_026
+    3300452: truss_vertical member_027
+    3300454: truss_vertical member_028
+    3300456: truss_vertical member_029
+    3300458: truss_vertical member_030
+    3300460: truss_vertical member_031
+    3300462: truss_vertical member_032
+    3300464: truss_vertical member_033
+    3300466: truss_vertical member_034
+    3300468: truss_vertical member_035
+    3300470: truss_vertical member_036
+    3300472: truss_vertical member_037
+    3300474: truss_vertical member_038
+    3300476: truss_vertical member_039
+    3300478: truss_vertical member_040
+    3300480: truss_vertical member_041
+    3300482: truss_vertical member_042
+    3300484: truss_vertical member_043
+    3300486: truss_vertical member_044
+    3300488: truss_vertical member_045
+    3300490: truss_vertical member_046
+    3300492: truss_vertical member_047
+    3300494: truss_vertical member_048
+    3300496: truss_vertical member_049
+    3300498: truss_vertical member_050
+    3300500: truss_vertical member_051
+    3300502: truss_vertical member_052
+    3300504: truss_vertical member_053
+    3300506: truss_vertical member_054
+    3300508: truss_vertical member_055
+    3300510: truss_vertical member_056
+    3300512: truss_vertical member_057
+    3300514: truss_vertical member_058
+    3300516: truss_vertical member_059
+    3300518: truss_vertical member_060
+    3300520: truss_vertical member_061
+    3300522: truss_vertical member_062
+    3300524: truss_vertical member_063
+    3300526: truss_vertical member_064
+    3300528: truss_vertical member_065
+    3300530: truss_vertical member_066
+    3300532: truss_vertical member_067
+    3300534: truss_vertical member_068
+    3300536: truss_vertical member_069
+    3300538: truss_vertical member_070
+    3300540: truss_vertical member_071
+    3300542: truss_vertical member_072
+    3300544: truss_vertical member_073
+    3300546: truss_vertical member_074
+    3300548: truss_vertical member_075
+    3300550: truss_vertical member_076
+    3300552: truss_vertical member_077
+    3300554: truss_vertical member_078
+    3300556: truss_vertical member_079
+    3300558: truss_vertical member_080
+    3300560: truss_vertical member_081
+    3300562: truss_vertical member_082
+    3300564: truss_vertical member_083
+    3300566: truss_vertical member_084
+    3300568: truss_vertical member_085
+    3300570: truss_vertical member_086
+    3300572: truss_vertical member_087
+    3300574: truss_vertical member_088
+    3300576: truss_vertical member_089
+    3300578: truss_vertical member_090
+    3300580: truss_vertical member_091
+    3300582: truss_vertical member_092
+    3300584: truss_vertical member_093
+    3300586: truss_vertical member_094
+    3300588: truss_vertical member_095
+    3300590: truss_vertical member_096
+    3300592: truss_vertical member_097
+    3300594: truss_vertical member_098
+    3300596: truss_vertical member_099
+    3300598: truss_vertical member_100
+    3300600: truss_vertical member_101
+    3300602: truss_vertical member_102
+    3300604: truss_vertical member_103
+    3300606: truss_vertical member_104
+    3300608: truss_vertical member_105
+    3300610: truss_vertical member_106
+    3300612: truss_vertical member_107
+    3300614: truss_vertical member_108
+    3300616: truss_vertical member_109
+    3300618: truss_vertical member_110
+    3300620: truss_vertical member_111
+    3300622: truss_vertical member_112
+    3300624: truss_vertical member_113
+    3300626: truss_vertical member_114
+    3300628: truss_vertical member_115
+    3300630: truss_vertical member_116
+    3300632: truss_vertical member_117
+    3300634: truss_vertical member_118
+    3300636: truss_vertical member_119
+    3300638: truss_vertical member_120
+    3300640: truss_vertical member_121
+    3300642: truss_vertical member_122
+    3300644: truss_vertical member_123
+    3300646: truss_vertical member_124
+    3300648: truss_vertical member_125
+    3300650: truss_vertical member_126
+    3300652: truss_vertical member_127
+    3300654: truss_vertical member_128
+    3300656: truss_vertical member_129
+    3300658: truss_vertical member_130
+    3300660: truss_vertical member_131
+    3300662: truss_vertical member_132
+    3300664: truss_vertical member_133
+    3300666: truss_vertical member_134
+    3300668: truss_vertical member_135
+    3300670: truss_vertical member_136
+    3300672: truss_vertical member_137
+    3300674: truss_vertical member_138
+    3300676: truss_vertical member_139
+    3300678: truss_vertical member_140
+    3300680: truss_vertical member_141
+    3300682: truss_vertical member_142
+    3300684: truss_vertical member_143
+    3300686: truss_vertical member_144
+    3300688: truss_vertical member_145
+    3300690: truss_vertical member_146
+    3300692: truss_vertical member_147
+    3300694: truss_vertical member_148
+    3300696: truss_vertical member_149
+    3300698: truss_vertical member_150
+    3300700: truss_vertical member_151
+    3300702: truss_vertical member_152
+    3300704: truss_vertical member_153
+    3300706: truss_vertical member_154
+    3300708: truss_vertical member_155
+    3300710: truss_vertical member_156
+    3300712: truss_vertical member_157
+    3300714: truss_vertical member_158
+    3300716: truss_vertical member_159
+    3300718: truss_vertical member_160
+    4300000: CamMount_004
+    4300002: CamAttach_007
+    4300004: Cam_004
+    4300006: truss_diagonal member_160
+    4300008: truss_vertical member_160
+    4300010: truss_diagonal member_159
+    4300012: truss_diagonal member_158
+    4300014: truss_diagonal member_157
+    4300016: truss_diagonal member_156
+    4300018: truss_diagonal member_155
+    4300020: truss_diagonal member_154
+    4300022: truss_diagonal member_153
+    4300024: truss_vertical member_159
+    4300026: truss_vertical member_158
+    4300028: truss_diagonal member_152
+    4300030: truss_diagonal member_151
+    4300032: truss_vertical member_157
+    4300034: truss_vertical member_156
+    4300036: truss_vertical member_155
+    4300038: truss_vertical member_154
+    4300040: truss_vertical member_153
+    4300042: truss_vertical member_152
+    4300044: truss_vertical member_151
+    4300046: Parallel chord truss_016
+    4300048: Group_008
+    4300050: truss_diagonal member_150
+    4300052: truss_vertical member_150
+    4300054: truss_diagonal member_149
+    4300056: truss_diagonal member_148
+    4300058: truss_diagonal member_147
+    4300060: truss_diagonal member_146
+    4300062: truss_diagonal member_145
+    4300064: truss_diagonal member_144
+    4300066: truss_diagonal member_143
+    4300068: truss_vertical member_149
+    4300070: truss_vertical member_148
+    4300072: truss_diagonal member_142
+    4300074: truss_diagonal member_141
+    4300076: truss_vertical member_147
+    4300078: truss_vertical member_146
+    4300080: truss_vertical member_145
+    4300082: truss_vertical member_144
+    4300084: truss_vertical member_143
+    4300086: truss_vertical member_142
+    4300088: truss_vertical member_141
+    4300090: Parallel chord truss_015
+    4300092: Group_007
+    4300094: Layer0_004
+    4300096: CamMount_003
+    4300098: CamAttach_005
+    4300100: Cam_003
+    4300102: truss_diagonal member_140
+    4300104: truss_vertical member_140
+    4300106: truss_diagonal member_139
+    4300108: truss_diagonal member_138
+    4300110: truss_diagonal member_137
+    4300112: truss_diagonal member_136
+    4300114: truss_diagonal member_135
+    4300116: truss_diagonal member_134
+    4300118: truss_diagonal member_133
+    4300120: truss_vertical member_139
+    4300122: truss_vertical member_138
+    4300124: truss_diagonal member_132
+    4300126: truss_diagonal member_131
+    4300128: truss_vertical member_137
+    4300130: truss_vertical member_136
+    4300132: truss_vertical member_135
+    4300134: truss_vertical member_134
+    4300136: truss_vertical member_133
+    4300138: truss_vertical member_132
+    4300140: truss_vertical member_131
+    4300142: Parallel chord truss_014
+    4300144: truss_diagonal member_130
+    4300146: truss_vertical member_130
+    4300148: truss_diagonal member_129
+    4300150: truss_diagonal member_128
+    4300152: truss_diagonal member_127
+    4300154: truss_diagonal member_126
+    4300156: truss_diagonal member_125
+    4300158: truss_diagonal member_124
+    4300160: truss_diagonal member_123
+    4300162: truss_vertical member_129
+    4300164: truss_vertical member_128
+    4300166: truss_diagonal member_122
+    4300168: truss_diagonal member_121
+    4300170: truss_vertical member_127
+    4300172: truss_vertical member_126
+    4300174: truss_vertical member_125
+    4300176: truss_vertical member_124
+    4300178: truss_vertical member_123
+    4300180: truss_vertical member_122
+    4300182: truss_vertical member_121
+    4300184: Parallel chord truss_013
+    4300186: truss_diagonal member_120
+    4300188: truss_vertical member_120
+    4300190: truss_diagonal member_119
+    4300192: truss_diagonal member_118
+    4300194: truss_diagonal member_117
+    4300196: truss_diagonal member_116
+    4300198: truss_diagonal member_115
+    4300200: truss_diagonal member_114
+    4300202: truss_diagonal member_113
+    4300204: truss_vertical member_119
+    4300206: truss_vertical member_118
+    4300208: truss_diagonal member_112
+    4300210: truss_diagonal member_111
+    4300212: truss_vertical member_117
+    4300214: truss_vertical member_116
+    4300216: truss_vertical member_115
+    4300218: truss_vertical member_114
+    4300220: truss_vertical member_113
+    4300222: truss_vertical member_112
+    4300224: truss_vertical member_111
+    4300226: Parallel chord truss_012
+    4300228: Group_006
+    4300230: truss_diagonal member_110
+    4300232: truss_vertical member_110
+    4300234: truss_diagonal member_109
+    4300236: truss_diagonal member_108
+    4300238: truss_diagonal member_107
+    4300240: truss_diagonal member_106
+    4300242: truss_diagonal member_105
+    4300244: truss_diagonal member_104
+    4300246: truss_diagonal member_103
+    4300248: truss_vertical member_109
+    4300250: truss_vertical member_108
+    4300252: truss_diagonal member_102
+    4300254: truss_diagonal member_101
+    4300256: truss_vertical member_107
+    4300258: truss_vertical member_106
+    4300260: truss_vertical member_105
+    4300262: truss_vertical member_104
+    4300264: truss_vertical member_103
+    4300266: truss_vertical member_102
+    4300268: truss_vertical member_101
+    4300270: Parallel chord truss_011
+    4300272: truss_diagonal member_100
+    4300274: truss_vertical member_100
+    4300276: truss_diagonal member_099
+    4300278: truss_diagonal member_098
+    4300280: truss_diagonal member_097
+    4300282: truss_diagonal member_096
+    4300284: truss_diagonal member_095
+    4300286: truss_diagonal member_094
+    4300288: truss_diagonal member_093
+    4300290: CamMount_002
+    4300292: CamAttach_003
+    4300294: Cam_002
+    4300296: truss_diagonal member_092
+    4300298: truss_vertical member_099
+    4300300: truss_diagonal member_091
+    4300302: truss_diagonal member_090
+    4300304: truss_diagonal member_089
+    4300306: truss_diagonal member_088
+    4300308: truss_diagonal member_087
+    4300310: truss_diagonal member_086
+    4300312: truss_diagonal member_085
+    4300314: truss_vertical member_098
+    4300316: truss_vertical member_097
+    4300318: truss_diagonal member_084
+    4300320: truss_diagonal member_083
+    4300322: truss_vertical member_096
+    4300324: truss_vertical member_095
+    4300326: truss_vertical member_094
+    4300328: truss_vertical member_093
+    4300330: truss_vertical member_092
+    4300332: truss_vertical member_091
+    4300334: truss_vertical member_090
+    4300336: Parallel chord truss_010
+    4300338: Group_005
+    4300340: truss_diagonal member_082
+    4300342: truss_vertical member_089
+    4300344: truss_diagonal member_081
+    4300346: truss_diagonal member_080
+    4300348: truss_diagonal member_079
+    4300350: truss_diagonal member_078
+    4300352: truss_diagonal member_077
+    4300354: truss_diagonal member_076
+    4300356: truss_diagonal member_075
+    4300358: truss_vertical member_088
+    4300360: truss_vertical member_087
+    4300362: truss_diagonal member_074
+    4300364: truss_diagonal member_073
+    4300366: truss_vertical member_086
+    4300368: truss_vertical member_085
+    4300370: truss_vertical member_084
+    4300372: truss_vertical member_083
+    4300374: truss_vertical member_082
+    4300376: truss_vertical member_081
+    4300378: truss_vertical member_080
+    4300380: Parallel chord truss_009
+    4300382: Group_004
+    4300384: Layer0_003
+    4300386: CamMount_001
+    4300388: CamAttach_001
+    4300390: Cam_001
+    4300392: truss_diagonal member_072
+    4300394: truss_vertical member_079
+    4300396: truss_diagonal member_071
+    4300398: truss_diagonal member_070
+    4300400: truss_diagonal member_069
+    4300402: truss_diagonal member_068
+    4300404: truss_diagonal member_067
+    4300406: truss_diagonal member_066
+    4300408: truss_diagonal member_065
+    4300410: truss_vertical member_078
+    4300412: truss_vertical member_077
+    4300414: truss_diagonal member_064
+    4300416: truss_diagonal member_063
+    4300418: truss_vertical member_076
+    4300420: truss_vertical member_075
+    4300422: truss_vertical member_074
+    4300424: truss_vertical member_073
+    4300426: truss_vertical member_072
+    4300428: truss_vertical member_071
+    4300430: truss_vertical member_070
+    4300432: Parallel chord truss_008
+    4300434: truss_diagonal member_062
+    4300436: truss_vertical member_069
+    4300438: truss_diagonal member_061
+    4300440: truss_diagonal member_060
+    4300442: truss_diagonal member_059
+    4300444: truss_diagonal member_058
+    4300446: truss_diagonal member_057
+    4300448: truss_diagonal member_056
+    4300450: truss_diagonal member_055
+    4300452: truss_vertical member_068
+    4300454: truss_vertical member_067
+    4300456: truss_diagonal member_054
+    4300458: truss_diagonal member_053
+    4300460: truss_vertical member_066
+    4300462: truss_vertical member_065
+    4300464: truss_vertical member_064
+    4300466: truss_vertical member_063
+    4300468: truss_vertical member_062
+    4300470: truss_vertical member_061
+    4300472: truss_vertical member_060
+    4300474: Parallel chord truss_007
+    4300476: truss_diagonal member_052
+    4300478: truss_vertical member_059
+    4300480: truss_diagonal member_051
+    4300482: truss_diagonal member_050
+    4300484: truss_diagonal member_049
+    4300486: truss_diagonal member_048
+    4300488: truss_diagonal member_047
+    4300490: truss_diagonal member_046
+    4300492: truss_diagonal member_045
+    4300494: truss_vertical member_058
+    4300496: truss_vertical member_057
+    4300498: truss_diagonal member_044
+    4300500: truss_diagonal member_043
+    4300502: truss_vertical member_056
+    4300504: truss_vertical member_055
+    4300506: truss_vertical member_054
+    4300508: truss_vertical member_053
+    4300510: truss_vertical member_052
+    4300512: truss_vertical member_051
+    4300514: truss_vertical member_050
+    4300516: Parallel chord truss_006
+    4300518: Group_003
+    4300520: truss_diagonal member_042
+    4300522: truss_vertical member_049
+    4300524: truss_diagonal member_041
+    4300526: truss_diagonal member_040
+    4300528: truss_diagonal member_039
+    4300530: truss_diagonal member_038
+    4300532: truss_diagonal member_037
+    4300534: truss_diagonal member_036
+    4300536: truss_diagonal member_035
+    4300538: truss_vertical member_048
+    4300540: truss_vertical member_047
+    4300542: truss_diagonal member_034
+    4300544: truss_diagonal member_033
+    4300546: truss_vertical member_046
+    4300548: truss_vertical member_045
+    4300550: truss_vertical member_044
+    4300552: truss_vertical member_043
+    4300554: truss_vertical member_042
+    4300556: truss_vertical member_041
+    4300558: truss_vertical member_040
+    4300560: Parallel chord truss_005
+    4300562: truss_diagonal member_032
+    4300564: truss_vertical member_039
+    4300566: truss_diagonal member_031
+    4300568: truss_diagonal member_030
+    4300570: truss_diagonal member_029
+    4300572: truss_diagonal member_028
+    4300574: truss_diagonal member_027
+    4300576: truss_diagonal member_026
+    4300578: truss_diagonal member_025
+    4300580: truss_vertical member_038
+    4300582: truss_vertical member_037
+    4300584: truss_diagonal member_024
+    4300586: truss_diagonal member_023
+    4300588: truss_vertical member_036
+    4300590: truss_vertical member_035
+    4300592: truss_vertical member_034
+    4300594: truss_vertical member_033
+    4300596: truss_vertical member_032
+    4300598: truss_vertical member_031
+    4300600: truss_vertical member_030
+    4300602: Parallel chord truss_004
+    4300604: truss_diagonal member_022
+    4300606: truss_vertical member_029
+    4300608: truss_diagonal member_021
+    4300610: truss_diagonal member_020
+    4300612: truss_diagonal member_019
+    4300614: truss_diagonal member_018
+    4300616: truss_diagonal member_017
+    4300618: truss_diagonal member_016
+    4300620: truss_diagonal member_015
+    4300622: truss_vertical member_028
+    4300624: truss_vertical member_027
+    4300626: truss_diagonal member_014
+    4300628: truss_diagonal member_013
+    4300630: truss_vertical member_026
+    4300632: truss_vertical member_025
+    4300634: truss_vertical member_024
+    4300636: truss_vertical member_023
+    4300638: truss_vertical member_022
+    4300640: truss_vertical member_021
+    4300642: truss_vertical member_020
+    4300644: Parallel chord truss_003
+    4300646: Group_002
+    4300648: Layer0_002
+    4300650: truss_vertical member_019
+    4300652: truss_vertical member_018
+    4300654: truss_diagonal member_012
+    4300656: truss_diagonal member_011
+    4300658: truss_vertical member_017
+    4300660: truss_vertical member_016
+    4300662: truss_vertical member_015
+    4300664: truss_vertical member_014
+    4300666: truss_vertical member_013
+    4300668: truss_vertical member_012
+    4300670: truss_vertical member_011
+    4300672: Parallel chord truss_002
+    4300674: truss_diagonal member_010
+    4300676: truss_vertical member_010
+    4300678: truss_diagonal member_009
+    4300680: truss_diagonal member_008
+    4300682: truss_diagonal member_007
+    4300684: truss_diagonal member_006
+    4300686: truss_diagonal member_005
+    4300688: truss_diagonal member_004
+    4300690: truss_diagonal member_003
+    4300692: truss_vertical member_009
+    4300694: truss_vertical member_008
+    4300696: truss_diagonal member_002
+    4300698: truss_diagonal member_001
+    4300700: truss_vertical member_007
+    4300702: truss_vertical member_006
+    4300704: truss_vertical member_005
+    4300706: truss_vertical member_004
+    4300708: truss_vertical member_003
+    4300710: truss_vertical member_002
+    4300712: truss_vertical member_001
+    4300714: Parallel chord truss_001
+    4300716: Group_001
+    4300718: Layer0_001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
