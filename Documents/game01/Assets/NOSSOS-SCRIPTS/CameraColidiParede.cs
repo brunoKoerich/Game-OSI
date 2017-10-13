@@ -40,10 +40,14 @@ public class CameraColidiParede : MonoBehaviour {
         if (this.distCam == 6)
         {
             this.distCam = 0;
+            //Para poder movimentar o mouse em Y
+            this.mouseY = 2;
         }
         else
         {
             this.distCam = 6;
+            //Travando o mouse em  Y
+            this.mouseY = 0;
         }
            
     }
