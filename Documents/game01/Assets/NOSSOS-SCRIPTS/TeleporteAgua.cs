@@ -7,8 +7,6 @@ public class TeleporteAgua : MonoBehaviour {
        é o objeto que será usado como parametro para teleporta o
        jogador até o local onde o destinoTrigger estiver  */
 
-
-
     // variavel que recebe um obj e onde este obj estiver o jogador sera teleportado
     public Transform destinoTrigger;
 
