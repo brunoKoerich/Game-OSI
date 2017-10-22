@@ -4,15 +4,18 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class PaineisSevProtInterf : MonoBehaviour {
-    //criando um obj para poder intancia-lo depois caso precise exibi-lo no game com SetActive(true)
+    //criando um obj para poder intancia-lo depois podendo asism exibir no game com SetActive(true)
     [SerializeField] GameObject painelServicos;
+    [SerializeField] GameObject painelProtocolos;
 
     // Inicia escondendo os paineis
     public void Start () {
         //astribuindo o obj com a tag PainelServico no obj "painelServicos"
         painelServicos = GameObject.FindGameObjectWithTag("PainelServico");
+        painelProtocolos = GameObject.FindGameObjectWithTag("PainelProtocolo");
         //escondendo o painel
         painelServicos.SetActive(false);
+        painelProtocolos.SetActive(false);
     }
 	
 	// Exibe ou esconde o painel Serviços ao clicar no botão serviços
@@ -27,5 +30,20 @@ public class PaineisSevProtInterf : MonoBehaviour {
             painelServicos.SetActive(true);
          }
    
+    }
+
+    // Exibe ou esconde o painel Protocolo ao clicar no botão protocolo
+    public void ExibeEscondePainelProtocolo()
+    {
+        //activeSelf retorna o valor boleano do obj - se o painel estiver aberto esconde
+        if (painelProtocolos.activeSelf)
+        {
+            painelProtocolos.SetActive(false);
+        } // se não exibe o painel
+        else
+        {
+            painelProtocolos.SetActive(true);
+        }
+
     }
 }
