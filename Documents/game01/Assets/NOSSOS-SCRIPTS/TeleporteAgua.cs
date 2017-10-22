@@ -8,16 +8,19 @@ public class TeleporteAgua : MonoBehaviour {
        jogador até o local onde o destinoTrigger estiver  */
 
     // variavel que recebe um obj e onde este obj estiver o jogador sera teleportado
-    public Transform destinoTrigger;
+    public Transform destino;
 
 	// função que teleporta o jogador se tocar na agua
-	void OnTriggerEnter (Collider col) {
-		if(col.transform.name == "Aluno")
-        {
-            Vector3 newPos = destinoTrigger.position;
-            newPos.y = 7.5f;
-            col.transform.position = newPos;
-            Debug.Log("ola");
-        }
+	private void OnTriggerEnter (Collider col) {
+		this.ChecarJogadorEntrou (col);
+	}
+
+	private void ChecarJogadorEntrou (Collider col) {
+		if(col.transform.name == "Aluno") {
+			Vector3 newPos = destino.position;
+			newPos.y = 7.5f;
+			col.transform.position = newPos;
+			Debug.Log("ola");
+		}
 	}
 }
