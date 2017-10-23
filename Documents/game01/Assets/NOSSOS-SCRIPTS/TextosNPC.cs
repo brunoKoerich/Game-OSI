@@ -3,33 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TextosNPC : MonoBehaviour {
-    //variavel que indica a quantidade de caixas de dialogos, configurar na unity
-    public int qtdCaixasDialogo; //contem os indices do array iniciando em 0
 
     //cria caixas de dialogo na unity para os textos
-    public string[] msg = {};
+	public List<string> textos;
+
+	private int posicaoAtual = 0; //contem os indices do array iniciando em 0
 
     // retorna as msgs escritas nas caixas de dialogos do script
-    public string GetMsg() {
-        return msg[qtdCaixasDialogo];
+    public string TextoAtual() {
+        return this.textos[this.posicaoAtual];
 	}
 
     //Função que chama proximo texto ao clicar no botão continuar
-    public void BtnCont()
-    {
-        //verificando se tem proximo texto para exibir SENAO esconde o objeto com a tag PainelDeDialogos
-        if (qtdCaixasDialogo < (msg.Length-1))
-       {
-            qtdCaixasDialogo++;
-       }else
-        {
+    public void Continuar() {
+    	//verificando se tem proximo texto para exibir SENAO esconde o objeto com a tag PainelDeDialogos
+		if (this.posicaoAtual < (this.textos.Count - 1)) {
+            this.posicaoAtual++;
+       	}else {
             GameObject.FindGameObjectWithTag("PainelDeDialogos").SetActive(false);
-        }
+    	}
     }
     //Função que reinicia dialogos, colocando o indice do array em 0
-    public void ReiniciarDialogo()
-    {
-        qtdCaixasDialogo = 0;
+    public void ReiniciarDialogo() {
+        this.posicaoAtual = 0;
     }
 
-}//class
+}
