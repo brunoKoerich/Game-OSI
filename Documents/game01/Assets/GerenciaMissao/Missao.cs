@@ -37,6 +37,11 @@ public class Missao : MonoBehaviour {
 			Debug.Log ("Missão \"" + this.titulo + "\" completada");
 
 			this.status = MissaoStatus.COMPLETADA;
+
+			GerenciaMissao gerenciaMissao = GameObject.FindObjectOfType<GerenciaMissao> ();
+			if (gerenciaMissao != null) {
+				gerenciaMissao.AvancarMissao ();
+			}
 			return true;
 		}
 

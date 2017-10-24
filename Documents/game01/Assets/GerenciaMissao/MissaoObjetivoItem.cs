@@ -7,11 +7,25 @@ public class MissaoObjetivoItem : MissaoObjetivo {
 	public string itemTitulo;
 	public int itemQuantidade;
 
+	private Jogador jogador;
+
+	private void Start () {
+		this.jogador = GameObject.FindObjectOfType<Jogador> ();
+
+		if (this.jogador == null) {
+			Debug.Log ("Jogador não encontrado");
+		}
+	}
+
 	private void Update () {
 		this.ChecarItensJogador ();
 	}
 
 	private void ChecarItensJogador() {
+		if (this.jogador == null) {
+			return;
+		}
+
 		Jogador jogador = GameObject.FindObjectOfType<Jogador> ();
 
 		int quantidadeAtual = 0;

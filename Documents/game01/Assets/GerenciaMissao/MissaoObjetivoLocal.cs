@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(BoxCollider))]
 public class MissaoObjetivoLocal : MissaoObjetivo {
 
 	private void OnTriggerEnter (Collider col) {
