@@ -31,7 +31,10 @@ public class PaineisSevProtInterf : MonoBehaviour {
          else
          {
             painelServicos.SetActive(true);
-         }
+            //escondendo os demais caso estejam abertos
+            painelProtocolos.SetActive(false);
+            painelInterfaces.SetActive(false);
+        }
    
     }
 
@@ -46,6 +49,9 @@ public class PaineisSevProtInterf : MonoBehaviour {
         else
         {
             painelProtocolos.SetActive(true);
+            //escondendo os demais caso estejam abertos
+            painelInterfaces.SetActive(false);
+            painelServicos.SetActive(false);
         }
 
     }
@@ -61,6 +67,9 @@ public class PaineisSevProtInterf : MonoBehaviour {
         else
         {
             painelInterfaces.SetActive(true);
+            //escondendo os demais caso estejam abertos
+            painelServicos.SetActive(false);
+            painelProtocolos.SetActive(false);
         }
 
     }
