@@ -24,12 +24,12 @@ public class MissaoComObjetivosGUI : MonoBehaviour {
 			return;
 		}
 
-		for (int i = 0; i < this.missao.GetObjetivos().Count; i++) {
+		for (int i = 0; i < this.missao.objetivos.Count; i++) {
 			GameObject itemGameObject = (GameObject) Instantiate(Resources.Load("MissaoComObjetivosGUI/MissaoObjetivoGUI", typeof(GameObject)));
 			itemGameObject.transform.SetParent (this.verticalLayout.transform);
 
 			MissaoObjetivoGUI item = itemGameObject.GetComponent<MissaoObjetivoGUI> ();
-			item.SetObjetivo (this.missao.GetObjetivos () [i]);
+			item.SetObjetivo (this.missao.objetivos[i]);
 
 			this.objetivosGUI.Add (item);
 		}

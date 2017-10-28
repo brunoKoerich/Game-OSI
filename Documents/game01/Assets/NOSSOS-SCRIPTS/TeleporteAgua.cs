@@ -16,7 +16,9 @@ public class TeleporteAgua : MonoBehaviour {
 	}
 
 	private void ChecarJogadorEntrou (Collider col) {
-		if(col.transform.name == "Aluno") {
+		Veiculo veiculo = col.gameObject.GetComponent<Veiculo> ();
+
+		if(col.gameObject.name == "Aluno" || veiculo != null) {
 			Vector3 newPos = destino.position;
 			newPos.y = 7.5f;
 			col.transform.position = newPos;

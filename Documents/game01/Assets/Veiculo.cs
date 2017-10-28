@@ -9,7 +9,7 @@ using UnityEngine;
 ]
 public class Veiculo : MonoBehaviour {
 	
-	public Camera camera;
+	public Camera cameraVeiculo;
 
 	private bool jogadorDentro = false;
 	private bool jogadorPerto = false;
@@ -21,11 +21,11 @@ public class Veiculo : MonoBehaviour {
 		this.carroControle = GetComponent<SimpleCarController> ();
 		this.carroControle.enabled = false;
 
-		if (this.camera == null) {
+		if (this.cameraVeiculo == null) {
 			Debug.LogError ("Veiculo sem camera");
 		}
 
-		this.camera.gameObject.SetActive (false);
+		this.cameraVeiculo.gameObject.SetActive (false);
 
 	}
 
@@ -67,7 +67,7 @@ public class Veiculo : MonoBehaviour {
 		if (this.jogadorPerto && !this.jogadorDentro) {
 			this.jogadorDentro = true;
 
-			this.camera.gameObject.SetActive (true);
+			this.cameraVeiculo.gameObject.SetActive (true);
 
 			this.carroControle.enabled = true;
 
@@ -81,11 +81,13 @@ public class Veiculo : MonoBehaviour {
 			this.jogadorDentro = false;
 
 			this.carroControle.enabled = false;
+			this.carroControle.transform.rotation = Quaternion.Euler(0, this.carroControle.transform.eulerAngles.y, 0);
 
 			this.jogador.transform.SetParent (null);
+			this.jogador.transform.rotation = Quaternion.Euler(0, this.jogador.transform.eulerAngles.y, 0);
 			this.jogador.SetActive (true);
 
-			this.camera.gameObject.SetActive (false);
+			this.cameraVeiculo.gameObject.SetActive (false);
 		}
 	}
 }

@@ -33,7 +33,7 @@ public class DialogoNPC : MonoBehaviour {
 	//Função que verifica se o personagem entrou na area Trigger do NPC e entaõ exibe o painel de dialogo
 	private void ChecarNPCPerto(Collider col) {
 		// Painel so será exibido se o obj fou um NPC
-		if (col.name == "npc") {
+		if (col.gameObject.tag == "npc") {
 			//Pegar o dialogo do NPC que a trigger foi ativada
 			npcAtualTextos = (TextosNPC) col.gameObject.GetComponent<TextosNPC>();
 			// chama o metodo do script TextosNPC, o qual retorna a msg escrita na unity
@@ -48,7 +48,7 @@ public class DialogoNPC : MonoBehaviour {
 	//função para fecha caixa de dialogo ao sair da area trigger do NPC
 	private void ChecarNPCLonge(Collider col) {
 		// Painel so será exibido se o obj fou um NPC
-		if (col.name == "npc") {
+		if (col.gameObject.tag == "npc") {
 			//reinicia o dialogo para o indice 0 do array ao sair da trigger do npc
 			npcAtualTextos.ReiniciarDialogo();
 			// chama o metodo do script TextosNPC, o qual retorna a msg escrita na unity

@@ -52,7 +52,7 @@ public class GerenciaMissao : MonoBehaviour {
 			// Mostra informações sobre a missão atual
 			this.missaoComObjetivosGUI.gameObject.SetActive (true);
 
-			Debug.Log ("Objetivos: "+ this.missaoAtual.GetObjetivos().Count);
+			Debug.Log ("Objetivos: "+ this.missaoAtual.objetivos.Count);
 			this.missaoComObjetivosGUI.SetMissao (this.missaoAtual);
 		}
 	}

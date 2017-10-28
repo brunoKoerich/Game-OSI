@@ -59,7 +59,6 @@
      <Compile Include="Assets\NOSSOS-SCRIPTS\DialogoNPC.cs" />
      <Compile Include="Assets\NOSSOS-SCRIPTS\TeleporteAgua.cs" />
      <Compile Include="Assets\NOSSOS-SCRIPTS\TextosNPC.cs" />
-     <Compile Include="Assets\NPC.cs" />
      <Compile Include="Assets\PaineisSevProtInterf.cs" />
      <Compile Include="Assets\Resources\MissaoComObjetivosGUI\MissaoComObjetivosGUI.cs" />
      <Compile Include="Assets\Resources\MissaoComObjetivosGUI\MissaoObjetivoGUI.cs" />

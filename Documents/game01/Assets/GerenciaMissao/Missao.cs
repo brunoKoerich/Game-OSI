@@ -7,12 +7,14 @@ public class Missao : MonoBehaviour {
 	
 	public string titulo;
 	public string descricao;
+	public List<MissaoObjetivo> objetivos = new List<MissaoObjetivo>();
 
 	private MissaoStatus status = MissaoStatus.DISPONIVEL;
-	private List<MissaoObjetivo> objetivos = new List<MissaoObjetivo>();
 
-	public List<MissaoObjetivo> GetObjetivos () {
-		return this.objetivos;
+	private void Start() {
+		for (int i = 0; i < this.objetivos.Count; i++) {
+			this.objetivos [i].setMissao (this);
+		}
 	}
 
 	public MissaoStatus GetStatus() {
@@ -51,8 +53,8 @@ public class Missao : MonoBehaviour {
 
 	public bool ChecarObjetivosCompletos() {
 		// Verifica se algum objetivo não foi concluido
-		for (int i = 0; i < this.GetObjetivos().Count; i++) {
-			if (!this.GetObjetivos()[i].completo) {
+		for (int i = 0; i < this.objetivos.Count; i++) {
+			if (!this.objetivos[i].completo) {
 				return false;
 			}
 		}

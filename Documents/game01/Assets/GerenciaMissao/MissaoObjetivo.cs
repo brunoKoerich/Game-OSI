@@ -5,21 +5,12 @@ using UnityEngine;
 public class MissaoObjetivo: MonoBehaviour {
 
 	public string titulo;
-	public Missao missao;
 	public bool completo = false;
 
-	// Executa após a inicialização do objeto
-	private void Awake() {
-		this.AdicionarNaMissao ();
-	}
+	protected Missao missao;
 
-	private void AdicionarNaMissao() {
-		if (this.missao == null) {
-			Debug.Log ("Objetivo \"" + this.titulo + "\" sem missão");
-		}
-
-		// Adiciona objetivo à missão
-		this.missao.GetObjetivos ().Add (this);
+	public void setMissao(Missao missao) {
+		this.missao = missao;
 	}
 
 	public void Completar() {
