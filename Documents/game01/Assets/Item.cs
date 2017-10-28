@@ -2,23 +2,44 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(BoxCollider))]
 public class Item : MonoBehaviour {
 
 	public string titulo;
 	public string descricao;
 
-	private void OnTriggerEnter (Collider col) {
-		this.ChecarColisaoJogador (col);
+	private Camera camera;
+	private Inventario inventario;
+
+	private void Start() {
+		this.camera = GameObject.FindObjectOfType<Camera>();
+		this.inventario = GameObject.FindObjectOfType<Inventario>();
+
+		if (this.inventario == null) {
+			Debug.Log ("Inventário não encontrado");
+		}
 	}
 
-	private void ChecarColisaoJogador(Collider col) {
-		if (col.gameObject.tag != "Player") {
+	private void Update() {
+		if (this.inventario == null) {
 			return;
 		}
 
-		Jogador player = col.gameObject.GetComponent<Jogador> ();
-		player.itens.Add (this);
+		if (Input.GetMouseButtonDown(0)){
+			// Projeta um "raio" da tela até aonde o jogador clicou no jogo
+			Ray ray = this.camera.ScreenPointToRay(Input.mousePosition);
 
-		this.gameObject.SetActive (false);
+			// Verifica se colidiu com algum objeto
+			RaycastHit hit;
+			if (Physics.Raycast(ray, out hit)){
+				Debug.Log (hit.transform.gameObject.name);
+
+				// Verifica se o objeto é um item
+				Item item = hit.transform.gameObject.GetComponent<Item>();
+				if (item != null) {
+					this.inventario.AdicionarItem (item, true);
+				}
+			}
+		}
 	}
 }
