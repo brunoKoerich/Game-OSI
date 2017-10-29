@@ -16,11 +16,10 @@ public class TeleporteAgua : MonoBehaviour {
 	}
 
 	private void ChecarJogadorEntrou (Collider col) {
-		if(col.gameObject.tag == "Player" || col.gameObject.tag == "Veiculo") {
+		if(col.gameObject.tag == "Player" || col.gameObject.tag == "veiculo") {
 			Vector3 newPos = destino.position;
 			newPos.y = 7.5f;
 			col.transform.position = newPos;
-			Debug.Log("ola");
 		}
 	}
 }
