@@ -7,11 +7,14 @@ public class Missao : MonoBehaviour {
 	
 	public string titulo;
 	public string descricao;
-	public List<MissaoObjetivo> objetivos = new List<MissaoObjetivo>();
+	public List<MissaoObjetivo> objetivos;
+	public List<GameObject> objetosAtivos;
+	public List<GameObject> objetosInativos;
 
 	private MissaoStatus status = MissaoStatus.DISPONIVEL;
 
 	private void Start() {
+		// Vincula objetivos à missão
 		for (int i = 0; i < this.objetivos.Count; i++) {
 			this.objetivos [i].setMissao (this);
 		}
@@ -26,6 +29,17 @@ public class Missao : MonoBehaviour {
 			Debug.Log ("Missão \"" + this.titulo + "\" ativa");
 
 			this.status = MissaoStatus.ATIVA;
+
+			// Ativa objetos necessários
+			for (int i = 0; i < this.objetosAtivos.Count; i++) {
+				this.objetosAtivos [i].SetActive (true);
+			}
+
+			// Inativa objetos necessários
+			for (int i = 0; i < this.objetosInativos.Count; i++) {
+				this.objetosInativos [i].SetActive (false);
+			}
+
 			return true;
 		}
 
