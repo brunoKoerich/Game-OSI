@@ -22,7 +22,7 @@ public class MissaoObjetivo: MonoBehaviour {
 		}
 
 		if (missao.GetStatus() != MissaoStatus.ATIVA) {
-			Debug.Log ("Objetivo \"" + this.titulo + "\" não disponível");
+			// Debug.Log ("Objetivo \"" + this.titulo + "\" não disponível");
 			return;
 		}
 
