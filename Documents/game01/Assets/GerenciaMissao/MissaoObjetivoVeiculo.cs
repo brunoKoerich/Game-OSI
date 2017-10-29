@@ -5,6 +5,7 @@ using UnityEngine;
 public class MissaoObjetivoVeiculo : MissaoObjetivo {
 
 	public Veiculo veiculo;
+	public bool jogadorDentro;
 
 	private void Start () {
 		if (this.veiculo == null) {
@@ -21,7 +22,7 @@ public class MissaoObjetivoVeiculo : MissaoObjetivo {
 			return;
 		}
 
-		if (this.veiculo.JogadorEstaDentro() && !this.completo) {
+		if (this.veiculo.JogadorEstaDentro() == this.jogadorDentro && !this.completo) {
 			this.Completar ();
 		}
 	}

@@ -16,6 +16,11 @@ public class MissaoObjetivo: MonoBehaviour {
 	}
 
 	public void Completar() {
+		if (this.missao == null) {
+			Debug.Log ("Objetivo \"" + this.titulo + "\" sem missão");
+			return;
+		}
+
 		if (missao.GetStatus() != MissaoStatus.ATIVA) {
 			Debug.Log ("Objetivo \"" + this.titulo + "\" não disponível");
 			return;
