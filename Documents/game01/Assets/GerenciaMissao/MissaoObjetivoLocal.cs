@@ -11,7 +11,7 @@ public class MissaoObjetivoLocal : MissaoObjetivo {
 
 	private void ChecarJogadorChegou(Collider col) {
 		// Completa objetivo caso jogador entrar na área do objeto
-		if (col.gameObject.tag == "Player") {
+		if (col.gameObject.tag == "Player" || col.gameObject.tag == "veiculo") {
 			this.Completar();
 		}
 	}

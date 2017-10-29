@@ -14,7 +14,6 @@ public class Veiculo : MonoBehaviour {
 	private bool jogadorDentro = false;
 	private bool jogadorPerto = false;
 
-	private Rigidbody rigidbody;
 	private SimpleCarController carroControle;
 	private GameObject jogador;
 
@@ -115,5 +114,9 @@ public class Veiculo : MonoBehaviour {
 
 		// Desabilita camera do veiculo
 		this.cameraVeiculo.gameObject.SetActive (false);
+	}
+
+	public bool JogadorEstaDentro() {
+		return this.jogadorDentro;
 	}
 }

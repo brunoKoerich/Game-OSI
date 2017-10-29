@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(BoxCollider))]
 public class TextosNPC : MonoBehaviour {
 
     //cria caixas de dialogo na unity para os textos

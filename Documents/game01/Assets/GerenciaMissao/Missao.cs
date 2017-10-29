@@ -8,8 +8,8 @@ public class Missao : MonoBehaviour {
 	public string titulo;
 	public string descricao;
 	public List<MissaoObjetivo> objetivos;
-	public List<GameObject> objetosAtivos;
-	public List<GameObject> objetosInativos;
+	public List<GameObject> objetosAtivosAoCompletar;
+	public List<GameObject> objetosInativosAoCompletar;
 
 	private MissaoStatus status = MissaoStatus.DISPONIVEL;
 
@@ -29,17 +29,6 @@ public class Missao : MonoBehaviour {
 			Debug.Log ("Missão \"" + this.titulo + "\" ativa");
 
 			this.status = MissaoStatus.ATIVA;
-
-			// Ativa objetos necessários
-			for (int i = 0; i < this.objetosAtivos.Count; i++) {
-				this.objetosAtivos [i].SetActive (true);
-			}
-
-			// Inativa objetos necessários
-			for (int i = 0; i < this.objetosInativos.Count; i++) {
-				this.objetosInativos [i].SetActive (false);
-			}
-
 			return true;
 		}
 
@@ -53,6 +42,16 @@ public class Missao : MonoBehaviour {
 			Debug.Log ("Missão \"" + this.titulo + "\" completada");
 
 			this.status = MissaoStatus.COMPLETADA;
+
+			// Ativa objetos necessários
+			for (int i = 0; i < this.objetosAtivosAoCompletar.Count; i++) {
+				this.objetosAtivosAoCompletar [i].SetActive (true);
+			}
+
+			// Inativa objetos necessários
+			for (int i = 0; i < this.objetosInativosAoCompletar.Count; i++) {
+				this.objetosInativosAoCompletar [i].SetActive (false);
+			}
 
 			GerenciaMissao gerenciaMissao = GameObject.FindObjectOfType<GerenciaMissao> ();
 			if (gerenciaMissao != null) {
