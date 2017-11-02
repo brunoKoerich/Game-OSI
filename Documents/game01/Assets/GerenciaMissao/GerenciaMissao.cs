@@ -11,8 +11,6 @@ public class GerenciaMissao : MonoBehaviour {
 
 	private void Start() {
 		this.AtualizarGUI ();
-
-		this.AvancarMissao ();
 	}
 
 	// Ativa próxima missão disponível
@@ -45,16 +43,11 @@ public class GerenciaMissao : MonoBehaviour {
 			return;
 		}
 
-		if (this.missaoAtual == null) {
-			// Esconde informações sobre a missão atual
-			this.missaoComObjetivosGUI.gameObject.SetActive (false);	
-		} else {
-			// Mostra informações sobre a missão atual
-			this.missaoComObjetivosGUI.gameObject.SetActive (true);
-
+		if (this.missaoAtual != null) {
 			Debug.Log ("Objetivos: "+ this.missaoAtual.objetivos.Count);
-			this.missaoComObjetivosGUI.SetMissao (this.missaoAtual);
 		}
+
+		this.missaoComObjetivosGUI.SetMissao (this.missaoAtual);
 	}
 
 }

@@ -13,7 +13,12 @@ public class MissaoComObjetivosGUI : MonoBehaviour {
 
 	public void SetMissao(Missao missao) {
 		this.missao = missao;
-		this.missaoTitulo.text = this.missao.titulo;
+
+		if (missao == null) {
+			this.missaoTitulo.text = "Sem missão";
+		} else {
+			this.missaoTitulo.text = this.missao.titulo;
+		}
 
 		this.LimparObjetivos ();
 		this.AdicionarObjetivos ();
