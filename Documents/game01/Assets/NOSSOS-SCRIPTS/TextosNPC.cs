@@ -40,7 +40,7 @@ public class TextosNPC : MonoBehaviour {
 			if (gerenciaMissao == null) {
 				Debug.Log ("Sem gerenciador de missões");
 			} else {
-				gerenciaMissao.AvancarMissao ();
+				gerenciaMissao.IniciaMissoes ();
 			}
 		}
     }

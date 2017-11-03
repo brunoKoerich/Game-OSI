@@ -13,6 +13,12 @@ public class GerenciaMissao : MonoBehaviour {
 		this.AtualizarGUI ();
 	}
 
+	public void IniciaMissoes() {
+		if (this.missaoAtual == null) {
+			this.AvancarMissao ();
+		}
+	}
+
 	// Ativa próxima missão disponível
 	public void AvancarMissao() {
 		if (this.missoes.Count == 0) {

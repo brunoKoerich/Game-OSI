@@ -54,7 +54,8 @@
      <Compile Include="Assets\GerenciaMissao\MissaoObjetivoItem.cs" />
      <Compile Include="Assets\GerenciaMissao\MissaoObjetivoLocal.cs" />
      <Compile Include="Assets\GerenciaMissao\MissaoObjetivoVeiculo.cs" />
-     <Compile Include="Assets\GerenciaMissao\QuestStatus.cs" />
+     <Compile Include="Assets\GerenciaMissao\MissaoStatus.cs" />
+     <Compile Include="Assets\NOSSOS-SCRIPTS\AtivaAtrasado.cs" />
      <Compile Include="Assets\NOSSOS-SCRIPTS\CameraColideParede.cs" />
      <Compile Include="Assets\NOSSOS-SCRIPTS\DialogoNPC.cs" />
      <Compile Include="Assets\NOSSOS-SCRIPTS\Inventario.cs" />
