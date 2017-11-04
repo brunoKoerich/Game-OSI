@@ -46,7 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FecharJogo.cs" />
      <Compile Include="Assets\GerenciaMissao\GerenciaMissao.cs" />
      <Compile Include="Assets\GerenciaMissao\Missao.cs" />
      <Compile Include="Assets\GerenciaMissao\MissaoObjetivo.cs" />
@@ -56,8 +55,11 @@
      <Compile Include="Assets\GerenciaMissao\MissaoObjetivoVeiculo.cs" />
      <Compile Include="Assets\GerenciaMissao\MissaoStatus.cs" />
      <Compile Include="Assets\NOSSOS-SCRIPTS\AtivaAtrasado.cs" />
+     <Compile Include="Assets\NOSSOS-SCRIPTS\BtnIniciarGame.cs" />
      <Compile Include="Assets\NOSSOS-SCRIPTS\CameraColideParede.cs" />
+     <Compile Include="Assets\NOSSOS-SCRIPTS\CorrigiBug.cs" />
      <Compile Include="Assets\NOSSOS-SCRIPTS\DialogoNPC.cs" />
+     <Compile Include="Assets\NOSSOS-SCRIPTS\FecharJogo.cs" />
      <Compile Include="Assets\NOSSOS-SCRIPTS\Inventario.cs" />
      <Compile Include="Assets\NOSSOS-SCRIPTS\Item.cs" />
      <Compile Include="Assets\NOSSOS-SCRIPTS\PaineisSevProtInterf.cs" />
