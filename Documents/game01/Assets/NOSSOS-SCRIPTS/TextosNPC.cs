@@ -30,6 +30,24 @@ public class TextosNPC : MonoBehaviour {
             GameObject.FindGameObjectWithTag("PainelDeDialogos").SetActive(false);
     	}
     }
+
+
+    //Função que chama proximo texto ao clicar no botão continuar
+    public void Voltar()
+    {
+        //verificando se tem proximo texto para exibir SENAO esconde o objeto com a tag PainelDeDialogos
+        if (this.posicaoAtual != 0)
+        {
+            this.posicaoAtual--;
+        }
+        else
+        {
+            this.ReiniciarDialogo();
+            GameObject.FindGameObjectWithTag("PainelDeDialogos").SetActive(false);
+        }
+    }
+
+
     //Função que reinicia dialogos, colocando o indice do array em 0
     public void ReiniciarDialogo() {
         this.posicaoAtual = 0;

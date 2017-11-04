@@ -11,7 +11,6 @@ public class DialogoNPC : MonoBehaviour {
     public Text msgTexto;
     //Botoes do Dialogo
     public Button btnContinuar;
-   	// public Button btnFechar;
 
     //Para verifical qual npc será o dialogo;
 	private TextosNPC npcAtualTextos;
@@ -73,9 +72,17 @@ public class DialogoNPC : MonoBehaviour {
         }
     }
 
-    //Função para Fecha caixa de dialogo ao clicar no botao fechar////basta add o btn e adicionar a funcao de clique la na unit
-   /* public void Fechar()
+    //Função para Percorre dialogo ao clicar no botão continuar
+    public void Voltar()
     {
-        msgDialogo.SetActive(false);
-    }*/
+        if (npcAtualTextos != null)
+        {
+            //Pega o proximo indice do array das msg de dialogo, ao clicar no botão continuar
+            npcAtualTextos.Voltar();
+            // chama o metodo do script TextosNPC, o qual retorna a msg escrita na unity
+            string msg = npcAtualTextos.TextoAtual();
+            // atribui a msg ao texto que será exibido no painel
+            msgTexto.text = msg;
+        }
+    }
 }

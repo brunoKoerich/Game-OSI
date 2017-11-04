@@ -104,6 +104,7 @@
     <Compile Include="Assets\GerenciaMissao\MissaoStatus.cs" />
     <Compile Include="Assets\NOSSOS-SCRIPTS\AtivaAtrasado.cs" />
     <Compile Include="Assets\NOSSOS-SCRIPTS\CameraColideParede.cs" />
+    <Compile Include="Assets\NOSSOS-SCRIPTS\CorrigiBug.cs" />
     <Compile Include="Assets\NOSSOS-SCRIPTS\DialogoNPC.cs" />
     <Compile Include="Assets\NOSSOS-SCRIPTS\Inventario.cs" />
     <Compile Include="Assets\NOSSOS-SCRIPTS\Item.cs" />
