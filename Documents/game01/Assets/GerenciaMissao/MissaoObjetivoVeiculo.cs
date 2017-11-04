@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MissaoObjetivoVeiculo : MissaoObjetivo {
 
-	public Veiculo veiculo;
-	public bool jogadorDentro;
+	[SerializeField] private Veiculo veiculo;
+	[SerializeField] private bool jogadorDentro;
 
 	private void Start () {
 		if (this.veiculo == null) {

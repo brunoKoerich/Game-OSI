@@ -8,7 +8,7 @@ public class TeleporteAgua : MonoBehaviour {
        jogador até o local onde o destinoTrigger estiver  */
 
     // variavel que recebe um obj e onde este obj estiver o jogador sera teleportado
-    public Transform destino;
+	[SerializeField] private Transform destino;
 
 	// função que teleporta o jogador se tocar na agua
 	private void OnTriggerEnter (Collider col) {

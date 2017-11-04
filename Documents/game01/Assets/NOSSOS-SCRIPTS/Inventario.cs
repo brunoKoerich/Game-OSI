@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class Inventario : MonoBehaviour {
 	
-	public List<Item> itens;
+	private List<Item> itens = new List<Item>();
+
+	public List<Item> GetItens() {
+		return this.itens;
+	}
 
 	public void AdicionarItem(Item item, bool unico) {
 		// Retira itens antigos se só pode ter um item desse tipo no inventário
@@ -13,7 +17,7 @@ public class Inventario : MonoBehaviour {
 				Item atual = this.itens [i];
 
 				// Verifica se é o mesmo item e remove do inventário
-				if (atual.titulo == item.titulo) {
+				if (atual.GetTitulo() == item.GetTitulo()) {
 					atual.gameObject.SetActive (true);
 
 					this.itens.Remove (atual);

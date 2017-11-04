@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class MissaoObjetivo: MonoBehaviour {
 
-	public string titulo;
-	public bool completo = false;
-	public List<GameObject> objetosAtivosAoCompletar;
-	public List<GameObject> objetosInativosAoCompletar;
+	[SerializeField] public string titulo;
+	[SerializeField] public List<GameObject> objetosAtivosAoCompletar;
+	[SerializeField] public List<GameObject> objetosInativosAoCompletar;
 
+	protected bool completo = false;
 	protected Missao missao;
 
-	public void setMissao(Missao missao) {
+	public void SetMissao(Missao missao) {
 		this.missao = missao;
 	}
 
-	public void Completar() {
+	public bool GetCompleto() {
+		return this.completo;
+	}
+
+	protected void Completar() {
 		if (this.missao == null) {
 			Debug.Log ("Objetivo \"" + this.titulo + "\" sem missão");
 			return;

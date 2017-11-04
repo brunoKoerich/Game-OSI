@@ -2,22 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
 public class Missao : MonoBehaviour {
 	
-	public string titulo;
-	public string descricao;
-	public List<MissaoObjetivo> objetivos;
-	public List<GameObject> objetosAtivosAoCompletar;
-	public List<GameObject> objetosInativosAoCompletar;
+	[SerializeField] private string titulo;
+	[SerializeField] private string descricao;
+	[SerializeField] private List<MissaoObjetivo> objetivos;
+	[SerializeField] private List<GameObject> objetosAtivosAoCompletar;
+	[SerializeField] private List<GameObject> objetosInativosAoCompletar;
 
 	private MissaoStatus status = MissaoStatus.DISPONIVEL;
 
 	private void Start() {
 		// Vincula objetivos à missão
 		for (int i = 0; i < this.objetivos.Count; i++) {
-			this.objetivos [i].setMissao (this);
+			this.objetivos [i].SetMissao (this);
 		}
+	}
+
+	public string GetTitulo() {
+		return this.titulo;
+	}
+
+	public string GetDescricao() {
+		return this.descricao;
+	}
+
+	public List<MissaoObjetivo> GetObjetivos() {
+		return this.objetivos;
 	}
 
 	public MissaoStatus GetStatus() {
@@ -67,7 +78,7 @@ public class Missao : MonoBehaviour {
 	public bool ChecarObjetivosCompletos() {
 		// Verifica se algum objetivo não foi concluido
 		for (int i = 0; i < this.objetivos.Count; i++) {
-			if (!this.objetivos[i].completo) {
+			if (!this.objetivos[i].GetCompleto()) {
 				return false;
 			}
 		}

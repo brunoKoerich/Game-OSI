@@ -6,11 +6,9 @@ using UnityEngine.UI;
 public class DialogoNPC : MonoBehaviour {
 
     // Objeto que contem o painel de dialogo (Painel de dialogo foi arrastado na unity)
-    public GameObject msgDialogo;
+	[SerializeField] private GameObject msgDialogo;
     // Objeto que contem o texto do dialogo (texto foi arrastado na unity)
-    public Text msgTexto;
-    //Botoes do Dialogo
-    public Button btnContinuar;
+	[SerializeField] private Text msgTexto;
 
     //Para verifical qual npc será o dialogo;
 	private TextosNPC npcAtualTextos;
@@ -73,8 +71,7 @@ public class DialogoNPC : MonoBehaviour {
     }
 
     //Função para Percorre dialogo ao clicar no botão continuar
-    public void Voltar()
-    {
+    public void Voltar() {
         if (npcAtualTextos != null)
         {
             //Pega o proximo indice do array das msg de dialogo, ao clicar no botão continuar

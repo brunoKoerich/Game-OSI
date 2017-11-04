@@ -9,7 +9,7 @@ using UnityEngine;
 ]
 public class Veiculo : MonoBehaviour {
 	
-	public Camera cameraVeiculo;
+	[SerializeField] private Camera cameraVeiculo;
 
 	private bool jogadorDentro = false;
 	private bool jogadorPerto = false;
@@ -30,6 +30,10 @@ public class Veiculo : MonoBehaviour {
 	}
 
 	private void Update () {
+		this.ChecarEntrarSair();
+	}
+	
+	private void ChecarEntrarSair () {
 		if (Input.GetButtonUp("Jump")) {
 			if (this.jogadorDentro) {
 				Debug.Log ("Sair");

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MissaoObjetivoFalarNPC : MissaoObjetivo {
 
-	public TextosNPC npc;
+	[SerializeField] private TextosNPC npc;
 
 	private void Start () {
 		if (this.npc == null) {
@@ -21,7 +21,7 @@ public class MissaoObjetivoFalarNPC : MissaoObjetivo {
 			return;
 		}
 
-		if (this.npc.conversou && !this.completo) {
+		if (this.npc.GetConversou() && !this.completo) {
 			this.Completar ();
 		}
 	}

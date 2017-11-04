@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class AtivaAtrasado : MonoBehaviour {
 
-	public int segundos;
-	public GameObject objeto;
+	[SerializeField] private int segundos;
+	[SerializeField] private GameObject objeto;
 
 	private void Start () {
 		StartCoroutine (this.Ativa());

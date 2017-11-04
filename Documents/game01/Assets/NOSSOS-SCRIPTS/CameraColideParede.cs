@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class CameraColideParede : MonoBehaviour {
 
-	public Transform alvo;
-    public float mouseX = 0;
-    public float mouseY = 0;
-	public float distanciaCamera = 6;
+	[SerializeField] private Transform alvo;
+	[SerializeField] private float mouseX = 0;
+	[SerializeField] private float mouseY = 0;
+	[SerializeField] private float distanciaCamera = 6;
 
 	private RaycastHit hit = new RaycastHit();
 

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GerenciaMissao : MonoBehaviour {
 
-	public List <Missao> missoes = new List <Missao> ();
-	public MissaoComObjetivosGUI missaoComObjetivosGUI;
+	[SerializeField] private List <Missao> missoes = new List <Missao> ();
+	[SerializeField] public MissaoComObjetivosGUI missaoComObjetivosGUI;
 
 	private Missao missaoAtual;
 
@@ -50,7 +50,7 @@ public class GerenciaMissao : MonoBehaviour {
 		}
 
 		if (this.missaoAtual != null) {
-			Debug.Log ("Objetivos: "+ this.missaoAtual.objetivos.Count);
+			Debug.Log ("Objetivos: "+ this.missaoAtual.GetObjetivos().Count);
 		}
 
 		this.missaoComObjetivosGUI.SetMissao (this.missaoAtual);

@@ -26,7 +26,7 @@ public class MissaoObjetivoGUI : MonoBehaviour {
 	}
 
 	private void AtualizaStatus() {
-		if (this.objetivo.completo) {
+		if (this.objetivo.GetCompleto()) {
 			this.status.text = "ok"; 
 		} else {
 			this.status.text = " -";

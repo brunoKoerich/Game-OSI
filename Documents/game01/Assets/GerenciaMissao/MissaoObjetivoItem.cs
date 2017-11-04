@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MissaoObjetivoItem : MissaoObjetivo {
 
-	public string itemTitulo;
-	public int itemQuantidade;
+	[SerializeField] private string itemTitulo;
+	[SerializeField] private int itemQuantidade;
 
 	private Inventario inventario;
 
@@ -27,8 +27,9 @@ public class MissaoObjetivoItem : MissaoObjetivo {
 		}
 
 		int quantidadeAtual = 0;
-		for (int i = 0; i < this.inventario.itens.Count; i++) {
-			if (this.inventario.itens [i].titulo == this.itemTitulo) {
+		List<Item> itens = this.inventario.GetItens();
+		for (int i = 0; i < itens.Count; i++) {
+			if (itens[i].GetTitulo() == this.itemTitulo) {
 				quantidadeAtual++;
 			}
 		}

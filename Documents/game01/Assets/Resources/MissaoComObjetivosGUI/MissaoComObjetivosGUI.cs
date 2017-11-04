@@ -17,7 +17,7 @@ public class MissaoComObjetivosGUI : MonoBehaviour {
 		if (missao == null) {
 			this.missaoTitulo.text = "Sem missão";
 		} else {
-			this.missaoTitulo.text = this.missao.titulo;
+			this.missaoTitulo.text = this.missao.GetTitulo();
 		}
 
 		this.LimparObjetivos ();
@@ -29,12 +29,13 @@ public class MissaoComObjetivosGUI : MonoBehaviour {
 			return;
 		}
 
-		for (int i = 0; i < this.missao.objetivos.Count; i++) {
+		List<MissaoObjetivo> objetivos = this.missao.GetObjetivos ();
+		for (int i = 0; i < objetivos.Count; i++) {
 			GameObject itemGameObject = (GameObject) Instantiate(Resources.Load("MissaoComObjetivosGUI/MissaoObjetivoGUI", typeof(GameObject)));
 			itemGameObject.transform.SetParent (this.verticalLayout.transform);
 
 			MissaoObjetivoGUI item = itemGameObject.GetComponent<MissaoObjetivoGUI> ();
-			item.SetObjetivo (this.missao.objetivos[i]);
+			item.SetObjetivo (objetivos[i]);
 
 			this.objetivosGUI.Add (item);
 		}

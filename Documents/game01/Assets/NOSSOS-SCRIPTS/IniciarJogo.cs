@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BtnIniciarGame : MonoBehaviour {
+public class IniciarJogo : MonoBehaviour {
 
-    [SerializeField] GameObject painelInicial;
+	[SerializeField] private GameObject painelInicial;
 
-    public void IniciarGame()
-    {
+    public void Iniciar() {
         painelInicial = GameObject.FindGameObjectWithTag("PainelInicial");
         painelInicial.SetActive(false);
     }

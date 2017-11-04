@@ -5,8 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider))]
 public class Item : MonoBehaviour {
 
-	public string titulo;
-	public string descricao;
+	[SerializeField] private string titulo;
+	[SerializeField] private string descricao;
 
 	private Camera cameraRaycast;
 	private Inventario inventario;
@@ -25,6 +25,10 @@ public class Item : MonoBehaviour {
 			return;
 		}
 
+		this.ChecarClicado();
+	}
+	
+	private void ChecarClicado() {
 		if (Input.GetMouseButtonDown(0)){
 			// Projeta um "raio" da tela até aonde o jogador clicou no jogo
 			Ray ray = this.cameraRaycast.ScreenPointToRay(Input.mousePosition);
@@ -39,5 +43,13 @@ public class Item : MonoBehaviour {
 				}
 			}
 		}
+	}
+
+	public string GetTitulo() {
+		return this.titulo;
+	}
+
+	public string GetDescricao() {
+		return this.descricao;
 	}
 }

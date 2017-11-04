@@ -6,18 +6,22 @@ using UnityEngine;
 public class TextosNPC : MonoBehaviour {
 
     //cria caixas de dialogo na unity para os textos
-	public List<string> textos;
+	[SerializeField] private List<string> textos;
+
+	[SerializeField] private bool iniciaMissoes;
 
 	//informa se o jogador já falou com o npc
-	public bool conversou = false;
-
-	public bool iniciaMissoes;
+	private bool conversou = false;
 
 	private int posicaoAtual = 0; //contem os indices do array iniciando em 0
 
     // retorna as msgs escritas nas caixas de dialogos do script
     public string TextoAtual() {
         return this.textos[this.posicaoAtual];
+	}
+
+	public bool GetConversou() {
+		return this.conversou;
 	}
 
     //Função que chama proximo texto ao clicar no botão continuar
@@ -33,15 +37,11 @@ public class TextosNPC : MonoBehaviour {
 
 
     //Função que chama proximo texto ao clicar no botão continuar
-    public void Voltar()
-    {
+    public void Voltar() {
         //verificando se tem proximo texto para exibir SENAO esconde o objeto com a tag PainelDeDialogos
-        if (this.posicaoAtual != 0)
-        {
+        if (this.posicaoAtual > 0) {
             this.posicaoAtual--;
-        }
-        else
-        {
+        } else {
             this.ReiniciarDialogo();
             GameObject.FindGameObjectWithTag("PainelDeDialogos").SetActive(false);
         }
