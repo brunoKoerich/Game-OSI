@@ -7,7 +7,6 @@ public class IniciarJogo : MonoBehaviour {
 	[SerializeField] private GameObject painelInicial;
 
     public void Iniciar() {
-        painelInicial = GameObject.FindGameObjectWithTag("PainelInicial");
-        painelInicial.SetActive(false);
+        this.painelInicial.SetActive(false);
     }
 }

@@ -18,7 +18,7 @@ public class PaineisSevProtInterf : MonoBehaviour {
     }
 	
 	// Exibe ou esconde o painel Serviços ao clicar no botão serviços
-	public void ExibeEscondePainelServico () {
+	public void ExibeEscondePainelServicos () {
         //activeSelf retorna o valor boleano do obj - se o painel estiver aberto esconde
         if (painelServicos.activeSelf) {
              painelServicos.SetActive(false);
@@ -31,7 +31,7 @@ public class PaineisSevProtInterf : MonoBehaviour {
     }
 
     // Exibe ou esconde o painel Protocolo ao clicar no botão protocolo
-    public void ExibeEscondePainelProtocolo() {
+    public void ExibeEscondePainelProtocolos() {
         //activeSelf retorna o valor boleano do obj - se o painel estiver aberto esconde
         if (painelProtocolos.activeSelf) {
             painelProtocolos.SetActive(false);
@@ -44,7 +44,7 @@ public class PaineisSevProtInterf : MonoBehaviour {
     }
 
     // Exibe ou esconde o painel Interface ao clicar no botão interface
-    public void ExibeEscondePainelIntreface() {
+    public void ExibeEscondePainelIntrefaces() {
         //activeSelf retorna o valor boleano do obj - se o painel estiver aberto esconde
         if (painelInterfaces.activeSelf) {
             painelInterfaces.SetActive(false);
